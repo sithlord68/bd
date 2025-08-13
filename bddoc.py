@@ -6,6 +6,8 @@ import re
 import os
 import traceback
 import numpy as np
+import random
+import time
 
 def search_bedetheque(comic_name):
     """Search for a comic on bedetheque.com and return the exact match URL if found"""
@@ -14,6 +16,11 @@ def search_bedetheque(comic_name):
     print(f"  Searching: {search_url}")
     
     try:
+        # Add random delay between 10-60 seconds
+        delay = random.uniform(10, 60)
+        print(f"  Waiting {delay:.2f} seconds before request...")
+        time.sleep(delay)
+        
         response = requests.get(search_url, headers={'User-Agent': 'Mozilla/5.0'})
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -48,10 +55,15 @@ def search_bedetheque(comic_name):
         return None
 
 def get_serie_info(serie_url):
-    """Extract genre information from a serie page"""
+    """Extract genre information and cover URL from a serie page"""
     print(f"  Fetching serie page: {serie_url}")
     
     try:
+        # Add random delay between 10-60 seconds
+        delay = random.uniform(10, 60)
+        print(f"  Waiting {delay:.2f} seconds before request...")
+        time.sleep(delay)
+        
         response = requests.get(serie_url, headers={'User-Agent': 'Mozilla/5.0'})
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -60,12 +72,12 @@ def get_serie_info(serie_url):
         genre_label = soup.find('li', string=re.compile(r'Genre\s*:'))
         if not genre_label:
             print("  Genre label not found")
-            return None, None
+            return None, None, None
         
         genre_span = genre_label.find('span', class_='style-serie')
         if not genre_span:
             print("  Genre span not found")
-            return None, None
+            return None, None, None
         
         genres = [g.strip() for g in genre_span.text.split(',')]
         print(f"  Found genres: {genres}")
@@ -78,11 +90,18 @@ def get_serie_info(serie_url):
             primary = ", ".join(genres)
             secondary = None
         
-        return primary, secondary
+        # Find cover image URL from meta tag
+        cover_url = None
+        meta_image = soup.find('meta', {'property': 'og:image'})
+        if meta_image:
+            cover_url = meta_image.get('content', None)
+            print(f"  Found cover URL: {cover_url}")
+        
+        return primary, secondary, cover_url
         
     except requests.RequestException as e:
         print(f"  Error fetching serie page {serie_url}: {e}")
-        return None, None
+        return None, None, None
 
 def is_empty_cell(value):
     """Check if a cell is empty or contains an error"""
@@ -115,12 +134,14 @@ def process_excel_file(input_file, output_file):
         GENRE_COL = 7    # Column H (8th column) - Primary genre
         LINK_COL = 10    # Column K (11th column) - URL
         SECOND_GENRE_COL = 11  # Column L (12th column) - Secondary genre
+        COVER_COL = 12   # New column M (13th column) - Cover URL
         
         print("\nColumn indices used:")
         print(f"  Title Column: {TITLE_COL} (Column {chr(65+TITLE_COL)})")
         print(f"  Genre Column: {GENRE_COL} (Column {chr(65+GENRE_COL)})")
         print(f"  Link Column: {LINK_COL} (Column {chr(65+LINK_COL)})")
-        print(f"  Secondary Genre Column: {SECOND_GENRE_COL} (Column {chr(65+SECOND_GENRE_COL)})\n")
+        print(f"  Secondary Genre Column: {SECOND_GENRE_COL} (Column {chr(65+SECOND_GENRE_COL)})")
+        print(f"  Cover URL Column: {COVER_COL} (Column {chr(65+COVER_COL)})\n")
         
         # Find the starting row of data (skip header rows)
         start_row = 0
@@ -171,8 +192,8 @@ def process_excel_file(input_file, output_file):
                 print("  No match found - skipping")
                 continue
             
-            # Get genre information
-            primary_genre, secondary_genre = get_serie_info(serie_url)
+            # Get genre information and cover URL
+            primary_genre, secondary_genre, cover_url = get_serie_info(serie_url)
             
             # Update the DataFrame
             print(f"  Updating row:")
@@ -185,18 +206,24 @@ def process_excel_file(input_file, output_file):
             if secondary_genre:
                 print(f"    Secondary Genre: {secondary_genre}")
                 df.iloc[index, SECOND_GENRE_COL] = secondary_genre
+            if cover_url:
+                print(f"    Cover URL: {cover_url}")
+                df.iloc[index, COVER_COL] = cover_url
             
             processed_count += 1
+            
+            # Save progress after each successful update
+            df.to_excel(output_file, sheet_name='bd', index=False, header=False, engine='openpyxl')
+            print(f"  Progress saved after processing row {index + 1}")
         
-        # Save the updated DataFrame
-        print(f"\nSaving results to {output_file}")
+        # Final save
+        print(f"\nSaving final results to {output_file}")
         df.to_excel(output_file, sheet_name='bd', index=False, header=False, engine='openpyxl')
         print(f"Processing complete. Updated {processed_count} comics.")
         
     except Exception as e:
         print(f"\nERROR: {e}")
         traceback.print_exc()
-
 
 
 
