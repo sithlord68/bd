@@ -18,10 +18,10 @@ LOG_FILE = "comic_processor.log"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 MIN_COVER_LENGTH = 15  # Minimum length to consider a cover URL valid
 
-# Column indices (0-based)
-TITLE_COL = 6   # Column G (Title)
-LINK_COL = 10   # Column K (URL)
-COVER_COL = 24  # Column Y (Cover URL)
+# Column indices (0-based) - Adjusted based on your file structure
+TITLE_COL = 6    # Column G (Title)
+LINK_COL = 10    # Column K (URL)
+COVER_COL = 24   # Column Y (Cover)
 
 def setup_logging():
     """Configure logging to both file and console"""
@@ -122,6 +122,7 @@ def get_cover_url(serie_url, interactive_mode):
 
 def process_row(index, row, df, interactive_mode):
     """Process a single row of the dataframe"""
+    # Safely get values with proper empty checks
     comic_name = str(row[TITLE_COL]) if not pd.isna(row[TITLE_COL]) else ""
     current_link = str(row[LINK_COL]) if not pd.isna(row[LINK_COL]) else ""
     current_cover = str(row[COVER_COL]) if not pd.isna(row[COVER_COL]) else ""
@@ -138,7 +139,14 @@ def process_row(index, row, df, interactive_mode):
     cover_url = ""
     updated = False
     
-    # Case 1: Both link and valid cover exist - skip
+    # Debug print to verify values
+    print(f"\nDEBUG - Row {index}:")
+    print(f"Title: '{comic_name}'")
+    print(f"Link: '{current_link}'")
+    print(f"Cover: '{current_cover}'")
+    print(f"Is valid cover: {is_valid_cover(current_cover)}")
+    
+    # Case 1: Both link and valid cover exist - skip (no delay)
     if current_link and is_valid_cover(current_cover):
         terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: filled - Result: Skipping - Cover: exists"
         file_status = "Skipping (both exist)"
@@ -203,6 +211,11 @@ def process_excel_file(input_file, output_file, interactive_mode):
         _, ext = os.path.splitext(input_file)
         engine = 'xlrd' if ext.lower() == '.xls' else 'openpyxl'
         df = pd.read_excel(input_file, sheet_name='bd', engine=engine, header=None)
+        
+        # Print column information for debugging
+        print("\nFile structure:")
+        print(f"Total columns: {len(df.columns)}")
+        print("First row sample:", df.iloc[2].tolist())  # Print header row
         
         # Verify column structure
         if len(df.columns) <= COVER_COL:
