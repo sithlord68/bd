@@ -4,6 +4,14 @@ pipx install pandas openpyxl requests beautifulsoup4 xlrd
 sudo apt install python3-pandas python3-openpyxl python3-requests python3-bs4 python3-xlrd
 
 
+LANCEMENT:
+python3 bddpc.py bd-db.xls output.xls
+python3 bddpc.py bd-db.xls output.xls -i
+
+
+
+
+
 python3 comic_processor.py input.xls output.xls -i
 
 python3 comic_processor.py input.xls output.xls
