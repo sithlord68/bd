@@ -6,233 +6,229 @@ import re
 import os
 import traceback
 import numpy as np
-import random
 import time
+from datetime import datetime
+import argparse
+import sys
+import logging
 
-def search_bedetheque(comic_name):
-    """Search for a comic on bedetheque.com and return the exact match URL if found"""
-    search_url = f"https://www.bedetheque.com/search/albums/?keywords={quote(comic_name)}"
-    
-    print(f"  Searching: {search_url}")
-    
-    try:
-        # Add random delay between 10-60 seconds
-        delay = random.uniform(10, 60)
-        print(f"  Waiting {delay:.2f} seconds before request...")
-        time.sleep(delay)
-        
-        response = requests.get(search_url, headers={'User-Agent': 'Mozilla/5.0'})
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Look for exact match in search results
-        results = soup.find_all('div', class_='liste-series')
-        print(f"  Found {len(results)} result sections")
-        
-        if not results:
-            return None
-        
-        for i, result in enumerate(results):
-            links = result.find_all('a')
-            print(f"  Section {i+1}: Found {len(links)} links")
-            
-            for j, link in enumerate(links):
-                link_text = link.text.strip()
-                print(f"    Link {j+1}: '{link_text}'")
-                
-                # Compare normalized names
-                if link_text.lower() == comic_name.strip().lower():
-                    href = link.get('href')
-                    if href:
-                        full_url = f"https://www.bedetheque.com{href}" if not href.startswith('http') else href
-                        print(f"    Exact match found! URL: {full_url}")
-                        return full_url
-        print("  No exact matches found")
-        return None
-        
-    except requests.RequestException as e:
-        print(f"  Error searching for {comic_name}: {e}")
-        return None
+# Configure constants
+DELAY_SECONDS = 60  # Fixed 60-second delay between requests
+LOG_FILE = "comic_processor.log"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 
-def get_serie_info(serie_url):
-    """Extract genre information and cover URL from a serie page"""
-    print(f"  Fetching serie page: {serie_url}")
-    
-    try:
-        # Add random delay between 10-60 seconds
-        delay = random.uniform(10, 60)
-        print(f"  Waiting {delay:.2f} seconds before request...")
-        time.sleep(delay)
-        
-        response = requests.get(serie_url, headers={'User-Agent': 'Mozilla/5.0'})
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Find the genre information
-        genre_label = soup.find('li', string=re.compile(r'Genre\s*:'))
-        if not genre_label:
-            print("  Genre label not found")
-            return None, None, None
-        
-        genre_span = genre_label.find('span', class_='style-serie')
-        if not genre_span:
-            print("  Genre span not found")
-            return None, None, None
-        
-        genres = [g.strip() for g in genre_span.text.split(',')]
-        print(f"  Found genres: {genres}")
-        
-        primary = genres[0] if genres else None
-        secondary = genres[1] if len(genres) > 1 else None
-        
-        # If there are more than 2 genres, join them in primary
-        if len(genres) > 2:
-            primary = ", ".join(genres)
-            secondary = None
-        
-        # Find cover image URL from meta tag
-        cover_url = None
-        meta_image = soup.find('meta', {'property': 'og:image'})
-        if meta_image:
-            cover_url = meta_image.get('content', None)
-            print(f"  Found cover URL: {cover_url}")
-        
-        return primary, secondary, cover_url
-        
-    except requests.RequestException as e:
-        print(f"  Error fetching serie page {serie_url}: {e}")
-        return None, None, None
+def setup_logging():
+    """Configure logging to both file and console"""
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler(LOG_FILE),
+            logging.StreamHandler()
+        ]
+    )
 
-def is_empty_cell(value):
-    """Check if a cell is empty or contains an error"""
-    if pd.isna(value):
+def log_to_file(message):
+    """Append a message to the log file"""
+    with open(LOG_FILE, 'a') as f:
+        f.write(message + "\n")
+
+def is_empty_cell(cell):
+    """Check if a cell is truly empty"""
+    if pd.isna(cell):
         return True
-    if isinstance(value, str) and value.strip() == "":
-        return True
-    if isinstance(value, float) and np.isnan(value):
-        return True
-    if isinstance(value, str) and value.startswith("Err:"):
+    if isinstance(cell, str) and cell.strip() in ('', 'nan', 'None'):
         return True
     return False
 
-def process_excel_file(input_file, output_file):
-    """Process the Excel file using column indices instead of names"""
+def search_bedetheque(comic_name, interactive_mode):
+    """Search for a comic on bedetheque.com and return the exact match URL if found"""
+    search_url = f"https://www.bedetheque.com/search/albums/?keywords={quote(comic_name)}"
+    
     try:
-        print(f"Reading input file: {input_file}")
+        logging.info(f"Waiting {DELAY_SECONDS} seconds before search...")
+        time.sleep(DELAY_SECONDS)
         
-        # Determine file format and use appropriate engine
+        response = requests.get(
+            search_url,
+            headers={
+                'User-Agent': USER_AGENT,
+                'Accept-Language': 'en-US,en;q=0.5',
+                'Referer': 'https://www.google.com/'
+            },
+            timeout=30
+        )
+        response.raise_for_status()
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        results = soup.find_all('div', class_='liste-series')
+        
+        if not results:
+            return None, search_url
+        
+        for result in results:
+            for link in result.find_all('a'):
+                link_text = link.text.strip()
+                if link_text.lower() == comic_name.strip().lower():
+                    href = link.get('href')
+                    if href:
+                        url = f"https://www.bedetheque.com{href}" if not href.startswith('http') else href
+                        return url, search_url
+        
+        return None, search_url
+        
+    except requests.RequestException as e:
+        logging.error(f"Search error for '{comic_name}': {str(e)}")
+        return None, search_url
+
+def get_cover_url(serie_url, interactive_mode):
+    """Extract cover URL from a serie page"""
+    try:
+        logging.info(f"Waiting {DELAY_SECONDS} seconds before cover request...")
+        time.sleep(DELAY_SECONDS)
+        
+        response = requests.get(
+            serie_url,
+            headers={
+                'User-Agent': USER_AGENT,
+                'Accept-Language': 'en-US,en;q=0.5',
+                'Referer': 'https://www.google.com/'
+            },
+            timeout=30
+        )
+        response.raise_for_status()
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        meta_image = soup.find('meta', {'property': 'og:image'})
+        
+        return meta_image.get('content') if meta_image else None
+        
+    except requests.RequestException as e:
+        logging.error(f"Cover fetch error for '{serie_url}': {str(e)}")
+        return None
+
+def process_row(index, row, df, interactive_mode):
+    """Process a single row of the dataframe"""
+    # Column indices (0-based)
+    TITLE_COL = 6   # Column G (Title)
+    LINK_COL = 10   # Column K (URL)
+    COVER_COL = 24  # Column Y (Cover URL)
+    
+    # Safely get values with proper empty checks
+    comic_name = str(row[TITLE_COL]) if not is_empty_cell(row[TITLE_COL]) else ""
+    current_link = str(row[LINK_COL]) if not is_empty_cell(row[LINK_COL]) else ""
+    current_cover = str(row[COVER_COL]) if not is_empty_cell(row[COVER_COL]) else ""
+    
+    # Additional cleaning
+    current_link = current_link.strip()
+    current_cover = current_cover.strip()
+    
+    # Initialize variables for logging
+    terminal_status = ""
+    file_status = ""
+    search_url = ""
+    cover_url = ""
+    updated = False
+    
+    # Case 1: Both link and cover exist - skip (no delay)
+    if current_link and current_cover:
+        terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: filled - Result: Skipping - Cover: exists"
+        file_status = "Skipping (both exist)"
+    
+    # Case 2: Link exists but cover is empty - fetch cover
+    elif current_link and not current_cover:
+        cover_url = get_cover_url(current_link, interactive_mode)
+        if cover_url:
+            df.at[index, COVER_COL] = cover_url
+            updated = True
+            terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: filled - Result: Found - Cover: found"
+            file_status = "Found (cover)"
+        else:
+            terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: filled - Result: Found - Cover: not found"
+            file_status = "Found (no cover)"
+    
+    # Case 3: Link is empty - search for comic
+    elif not current_link:
+        new_link, search_url = search_bedetheque(comic_name, interactive_mode)
+        if new_link:
+            df.at[index, LINK_COL] = new_link
+            cover_url = get_cover_url(new_link, interactive_mode)
+            if cover_url:
+                df.at[index, COVER_COL] = cover_url
+            updated = True
+            terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: empty - Result: Found - Cover: {'found' if cover_url else 'not found'}"
+            file_status = "Found (new)"
+        else:
+            terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: empty - Result: not Found - Cover: n/a"
+            file_status = "not Found"
+    
+    # Log to terminal
+    print(terminal_status)
+    
+    # Log to file
+    log_entry = (
+        f"{datetime.now().strftime('%Y%m%d')},"
+        f"{datetime.now().strftime('%H%M%S')},"
+        f"Row,{index},{comic_name},"
+        f"{current_link if current_link else 'empty'},"
+        f"{file_status},"
+        f"{search_url if search_url else 'empty'},"
+        f"{cover_url if cover_url else 'empty'}"
+    )
+    log_to_file(log_entry)
+    
+    # Interactive mode handling
+    if interactive_mode and updated:
+        while True:
+            user_input = input("Press ENTER to continue or type 'go' for non-interactive mode: ").strip().lower()
+            if user_input == 'go':
+                return False  # Signal to switch to non-interactive
+            elif user_input == '':
+                return True  # Continue in interactive mode
+    
+    return interactive_mode  # Maintain current mode
+
+def process_excel_file(input_file, output_file, interactive_mode):
+    """Process the Excel file"""
+    try:
+        # Read the Excel file
         _, ext = os.path.splitext(input_file)
         engine = 'xlrd' if ext.lower() == '.xls' else 'openpyxl'
-        
-        # Read the Excel file
         df = pd.read_excel(input_file, sheet_name='bd', engine=engine, header=None)
-        print(f"Read {len(df)} rows from sheet 'bd'")
         
-        # Define column indices based on your example
-        # Column indices (0-indexed)
-        TITLE_COL = 6    # Column G (7th column) - Comic title
-        GENRE_COL = 7    # Column H (8th column) - Primary genre
-        LINK_COL = 10    # Column K (11th column) - URL
-        SECOND_GENRE_COL = 11  # Column L (12th column) - Secondary genre
-        COVER_COL = 12   # New column M (13th column) - Cover URL
+        # Verify column structure
+        if len(df.columns) <= COVER_COL:
+            raise ValueError(f"Input file has only {len(df.columns)} columns, but we need at least {COVER_COL+1} columns")
         
-        print("\nColumn indices used:")
-        print(f"  Title Column: {TITLE_COL} (Column {chr(65+TITLE_COL)})")
-        print(f"  Genre Column: {GENRE_COL} (Column {chr(65+GENRE_COL)})")
-        print(f"  Link Column: {LINK_COL} (Column {chr(65+LINK_COL)})")
-        print(f"  Secondary Genre Column: {SECOND_GENRE_COL} (Column {chr(65+SECOND_GENRE_COL)})")
-        print(f"  Cover URL Column: {COVER_COL} (Column {chr(65+COVER_COL)})\n")
-        
-        # Find the starting row of data (skip header rows)
-        start_row = 0
-        for i in range(len(df)):
-            # Skip empty title cells
-            if pd.isna(df.iloc[i, TITLE_COL]):
+        # Process each row starting from row 4 (index 3)
+        for index, row in df.iterrows():
+            # Skip first 3 header rows and empty title rows
+            if index < 3 or is_empty_cell(row[TITLE_COL]):
                 continue
                 
-            # Check if this looks like a header row
-            title_value = str(df.iloc[i, TITLE_COL])
-            if "titre" in title_value.lower():
-                print(f"Found header row at index {i}: '{title_value}'")
-                start_row = i + 1
-                break
-            else:
-                start_row = i
-                break
-                
-        print(f"Data starts at row: {start_row + 1} (index {start_row})")
-        print(f"Processing {len(df) - start_row} potential comic rows\n")
-        
-        # Process each row
-        processed_count = 0
-        for index in range(start_row, len(df)):
-            # Skip rows without a comic title
-            if pd.isna(df.iloc[index, TITLE_COL]):
-                print(f"\nRow {index + 1}: Skipping - No title")
-                continue
-                
-            # Get comic name
-            comic_name = str(df.iloc[index, TITLE_COL])
+            # Process the row
+            interactive_mode = process_row(index, row, df, interactive_mode)
             
-            # Check if link column is empty
-            link_value = df.iloc[index, LINK_COL]
-            if not is_empty_cell(link_value):
-                print(f"\nRow {index + 1}:")
-                print(f"  Comic Name: '{comic_name}'")
-                print(f"  Link Column has value: '{link_value}' - Skipping")
-                continue
-                
-            print(f"\nRow {index + 1}:")
-            print(f"  Comic Name: '{comic_name}'")
-            print(f"  Link Column is empty - Processing")
-            
-            # Search for the comic
-            serie_url = search_bedetheque(comic_name)
-            if not serie_url:
-                print("  No match found - skipping")
-                continue
-            
-            # Get genre information and cover URL
-            primary_genre, secondary_genre, cover_url = get_serie_info(serie_url)
-            
-            # Update the DataFrame
-            print(f"  Updating row:")
-            print(f"    Link Column: {serie_url}")
-            df.iloc[index, LINK_COL] = serie_url
-            
-            if primary_genre:
-                print(f"    Primary Genre: {primary_genre}")
-                df.iloc[index, GENRE_COL] = primary_genre
-            if secondary_genre:
-                print(f"    Secondary Genre: {secondary_genre}")
-                df.iloc[index, SECOND_GENRE_COL] = secondary_genre
-            if cover_url:
-                print(f"    Cover URL: {cover_url}")
-                df.iloc[index, COVER_COL] = cover_url
-            
-            processed_count += 1
-            
-            # Save progress after each successful update
+            # Save progress after each update
             df.to_excel(output_file, sheet_name='bd', index=False, header=False, engine='openpyxl')
-            print(f"  Progress saved after processing row {index + 1}")
         
-        # Final save
-        print(f"\nSaving final results to {output_file}")
-        df.to_excel(output_file, sheet_name='bd', index=False, header=False, engine='openpyxl')
-        print(f"Processing complete. Updated {processed_count} comics.")
+        logging.info("Processing complete")
         
     except Exception as e:
-        print(f"\nERROR: {e}")
+        logging.error(f"Error processing file: {str(e)}")
         traceback.print_exc()
 
-
+def main():
+    parser = argparse.ArgumentParser(description='Process comic book data from Excel file')
+    parser.add_argument('input_file', help='Input Excel file path')
+    parser.add_argument('output_file', help='Output Excel file path')
+    parser.add_argument('-i', '--interactive', action='store_true', help='Enable interactive mode')
+    args = parser.parse_args()
+    
+    setup_logging()
+    logging.info(f"Starting processing with {'interactive' if args.interactive else 'non-interactive'} mode")
+    
+    process_excel_file(args.input_file, args.output_file, args.interactive)
 
 if __name__ == "__main__":
-    input_filename = "bd-db.xls"  # Change to your input file
-    output_filename = "comics_output.xls"  # Change to your output file
-    
-    print("Starting comic book processor...")
-    process_excel_file(input_filename, output_filename)
-    print("Done!")
-    traceback.print_exc()
-
+    main()

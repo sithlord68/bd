@@ -1,3 +1,42 @@
-gcc -o comic_processor bd_ref.c -lxlsxwriter -lcurl -lxml2
+sudo apt install pipx
+pipx ensurepath
+pipx install pandas openpyxl requests beautifulsoup4 xlrd
+sudo apt install python3-pandas python3-openpyxl python3-requests python3-bs4 python3-xlrd
 
-python comic_processor.py
+
+python3 comic_processor.py input.xls output.xls -i
+
+python3 comic_processor.py input.xls output.xls
+
+Key Features:
+Fixed 60-second delay between requests to prevent IP blocking
+
+Three processing cases:
+
+K empty: Search for comic and cover
+
+K filled but Y empty: Just search for cover
+
+Both filled: Skip
+
+Dual logging:
+
+Terminal: One-line summary per row
+
+Log file: Detailed CSV-formatted records
+
+Interactive mode:
+
+Start with python3 script.py input.xls output.xls -i
+
+Press ENTER to continue after each update
+
+Type "go" to switch to non-interactive mode
+
+Robust error handling:
+
+Proper timeouts and user-agent headers
+
+Detailed error logging
+
+Progress saved after each update
