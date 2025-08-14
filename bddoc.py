@@ -16,6 +16,7 @@ import logging
 DELAY_SECONDS = 60  # Delay after each web request
 LOG_FILE = "comic_processor.log"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+MIN_COVER_LENGTH = 15  # Minimum length to consider a cover URL valid
 
 # Column indices (0-based)
 TITLE_COL = 6   # Column G (Title)
@@ -38,16 +39,15 @@ def log_to_file(message):
     with open(LOG_FILE, 'a') as f:
         f.write(message + "\n")
 
-def is_empty_cell(cell):
-    """Check if a cell is truly empty"""
-    if pd.isna(cell):
-        return True
-    if isinstance(cell, str) and cell.strip() in ('', 'nan', 'None'):
-        return True
-    return False
+def is_valid_cover(cover):
+    """Check if cover field contains a valid URL"""
+    if pd.isna(cover):
+        return False
+    cover_str = str(cover).strip()
+    return len(cover_str) >= MIN_COVER_LENGTH and cover_str.startswith('http')
 
 def search_bedetheque(comic_name, interactive_mode):
-    """Search for a comic on bedetheque.com and return the exact match URL if found"""
+    """Search for a comic on bedetheque.com"""
     search_url = f"https://www.bedetheque.com/search/albums/?keywords={quote(comic_name)}"
     
     try:
@@ -86,7 +86,6 @@ def search_bedetheque(comic_name, interactive_mode):
         
     except requests.RequestException as e:
         logging.error(f"Search error for '{comic_name}': {str(e)}")
-        # Still delay even on error to be polite
         if not interactive_mode:
             time.sleep(DELAY_SECONDS)
         return None, search_url
@@ -117,19 +116,18 @@ def get_cover_url(serie_url, interactive_mode):
         
     except requests.RequestException as e:
         logging.error(f"Cover fetch error for '{serie_url}': {str(e)}")
-        # Still delay even on error
         if not interactive_mode:
             time.sleep(DELAY_SECONDS)
         return None
 
 def process_row(index, row, df, interactive_mode):
     """Process a single row of the dataframe"""
-    # Safely get values with proper empty checks
-    comic_name = str(row[TITLE_COL]) if not is_empty_cell(row[TITLE_COL]) else ""
-    current_link = str(row[LINK_COL]) if not is_empty_cell(row[LINK_COL]) else ""
-    current_cover = str(row[COVER_COL]) if not is_empty_cell(row[COVER_COL]) else ""
+    comic_name = str(row[TITLE_COL]) if not pd.isna(row[TITLE_COL]) else ""
+    current_link = str(row[LINK_COL]) if not pd.isna(row[LINK_COL]) else ""
+    current_cover = str(row[COVER_COL]) if not pd.isna(row[COVER_COL]) else ""
     
-    # Additional cleaning
+    # Clean strings
+    comic_name = comic_name.strip()
     current_link = current_link.strip()
     current_cover = current_cover.strip()
     
@@ -140,13 +138,13 @@ def process_row(index, row, df, interactive_mode):
     cover_url = ""
     updated = False
     
-    # Case 1: Both link and cover exist - skip (no web access, no delay)
-    if current_link and current_cover:
+    # Case 1: Both link and valid cover exist - skip
+    if current_link and is_valid_cover(current_cover):
         terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: filled - Result: Skipping - Cover: exists"
         file_status = "Skipping (both exist)"
     
-    # Case 2: Link exists but cover is empty - fetch cover
-    elif current_link and not current_cover:
+    # Case 2: Link exists but cover is invalid - fetch cover
+    elif current_link and not is_valid_cover(current_cover):
         cover_url = get_cover_url(current_link, interactive_mode)
         if cover_url:
             df.at[index, COVER_COL] = cover_url
@@ -192,9 +190,9 @@ def process_row(index, row, df, interactive_mode):
         while True:
             user_input = input("Press ENTER to continue or type 'go' for non-interactive mode: ").strip().lower()
             if user_input == 'go':
-                return False  # Switch to non-interactive
+                return False
             elif user_input == '':
-                return True  # Continue interactive
+                return True
     
     return interactive_mode
 
@@ -213,7 +211,7 @@ def process_excel_file(input_file, output_file, interactive_mode):
         # Process each row starting from row 4 (index 3)
         for index, row in df.iterrows():
             # Skip first 3 header rows and empty title rows
-            if index < 3 or is_empty_cell(row[TITLE_COL]):
+            if index < 3 or pd.isna(row[TITLE_COL]):
                 continue
                 
             # Process the row
