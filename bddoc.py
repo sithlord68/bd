@@ -13,9 +13,14 @@ import sys
 import logging
 
 # Configure constants
-DELAY_SECONDS = 60  # Fixed 60-second delay between requests
+DELAY_SECONDS = 60  # Delay after each web request
 LOG_FILE = "comic_processor.log"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+
+# Column indices (0-based)
+TITLE_COL = 6   # Column G (Title)
+LINK_COL = 10   # Column K (URL)
+COVER_COL = 24  # Column Y (Cover URL)
 
 def setup_logging():
     """Configure logging to both file and console"""
@@ -46,9 +51,6 @@ def search_bedetheque(comic_name, interactive_mode):
     search_url = f"https://www.bedetheque.com/search/albums/?keywords={quote(comic_name)}"
     
     try:
-        logging.info(f"Waiting {DELAY_SECONDS} seconds before search...")
-        time.sleep(DELAY_SECONDS)
-        
         response = requests.get(
             search_url,
             headers={
@@ -59,6 +61,11 @@ def search_bedetheque(comic_name, interactive_mode):
             timeout=30
         )
         response.raise_for_status()
+        
+        # Delay after the request
+        if not interactive_mode:
+            logging.info(f"Waiting {DELAY_SECONDS} seconds after search...")
+            time.sleep(DELAY_SECONDS)
         
         soup = BeautifulSoup(response.text, 'html.parser')
         results = soup.find_all('div', class_='liste-series')
@@ -79,14 +86,14 @@ def search_bedetheque(comic_name, interactive_mode):
         
     except requests.RequestException as e:
         logging.error(f"Search error for '{comic_name}': {str(e)}")
+        # Still delay even on error to be polite
+        if not interactive_mode:
+            time.sleep(DELAY_SECONDS)
         return None, search_url
 
 def get_cover_url(serie_url, interactive_mode):
     """Extract cover URL from a serie page"""
     try:
-        logging.info(f"Waiting {DELAY_SECONDS} seconds before cover request...")
-        time.sleep(DELAY_SECONDS)
-        
         response = requests.get(
             serie_url,
             headers={
@@ -98,6 +105,11 @@ def get_cover_url(serie_url, interactive_mode):
         )
         response.raise_for_status()
         
+        # Delay after the request
+        if not interactive_mode:
+            logging.info(f"Waiting {DELAY_SECONDS} seconds after cover request...")
+            time.sleep(DELAY_SECONDS)
+        
         soup = BeautifulSoup(response.text, 'html.parser')
         meta_image = soup.find('meta', {'property': 'og:image'})
         
@@ -105,15 +117,13 @@ def get_cover_url(serie_url, interactive_mode):
         
     except requests.RequestException as e:
         logging.error(f"Cover fetch error for '{serie_url}': {str(e)}")
+        # Still delay even on error
+        if not interactive_mode:
+            time.sleep(DELAY_SECONDS)
         return None
 
 def process_row(index, row, df, interactive_mode):
     """Process a single row of the dataframe"""
-    # Column indices (0-based)
-    TITLE_COL = 6   # Column G (Title)
-    LINK_COL = 10   # Column K (URL)
-    COVER_COL = 24  # Column Y (Cover URL)
-    
     # Safely get values with proper empty checks
     comic_name = str(row[TITLE_COL]) if not is_empty_cell(row[TITLE_COL]) else ""
     current_link = str(row[LINK_COL]) if not is_empty_cell(row[LINK_COL]) else ""
@@ -123,14 +133,14 @@ def process_row(index, row, df, interactive_mode):
     current_link = current_link.strip()
     current_cover = current_cover.strip()
     
-    # Initialize variables for logging
+    # Initialize variables
     terminal_status = ""
     file_status = ""
     search_url = ""
     cover_url = ""
     updated = False
     
-    # Case 1: Both link and cover exist - skip (no delay)
+    # Case 1: Both link and cover exist - skip (no web access, no delay)
     if current_link and current_cover:
         terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: filled - Result: Skipping - Cover: exists"
         file_status = "Skipping (both exist)"
@@ -182,11 +192,11 @@ def process_row(index, row, df, interactive_mode):
         while True:
             user_input = input("Press ENTER to continue or type 'go' for non-interactive mode: ").strip().lower()
             if user_input == 'go':
-                return False  # Signal to switch to non-interactive
+                return False  # Switch to non-interactive
             elif user_input == '':
-                return True  # Continue in interactive mode
+                return True  # Continue interactive
     
-    return interactive_mode  # Maintain current mode
+    return interactive_mode
 
 def process_excel_file(input_file, output_file, interactive_mode):
     """Process the Excel file"""
