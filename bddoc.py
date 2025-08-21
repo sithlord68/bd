@@ -14,7 +14,7 @@ import logging
 import random
 
 # Configure constants
-DELAY_SECONDS = 30  # Reduced delay to avoid being flagged
+DELAY_SECONDS = 120  # Increased delay to avoid blocking
 LOG_FILE = "comic_processor.log"
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
@@ -53,127 +53,40 @@ def is_valid_cover(cover):
     cover_str = str(cover).strip()
     return len(cover_str) >= MIN_COVER_LENGTH and cover_str.startswith('http')
 
-def create_session():
-    """Create a requests session with proper headers"""
-    session = requests.Session()
-    session.headers.update({
-        'User-Agent': random.choice(USER_AGENTS),
-        'Accept-Language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Encoding': 'gzip, deflate',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-        'Cache-Control': 'max-age=0',
-        'Referer': 'https://www.bedetheque.com/'
-    })
-    return session
-
-def search_bedetheque_direct(comic_name, interactive_mode):
-    """Search for a comic directly on bedetheque.com"""
-    search_url = f"https://www.bedetheque.com/search/albums?keywords={quote(comic_name)}"
+def manual_search_fallback(comic_name):
+    """Manual fallback for when automated search fails"""
+    print(f"\n--- MANUAL SEARCH REQUIRED ---")
+    print(f"Comic: {comic_name}")
+    print("Please search manually on https://www.bedetheque.com/")
+    print("Enter the URL below or press Enter to skip:")
     
-    try:
-        session = create_session()
-        
-        # First, get the main page to establish a session
-        main_page = session.get("https://www.bedetheque.com/", timeout=10)
-        time.sleep(2)  # Small delay between requests
-        
-        # Now try the search
-        response = session.get(search_url, timeout=30)
-        
-        # Check if we got a valid response
-        logging.info(f"Bedetheque response status: {response.status_code}")
-        logging.info(f"Response length: {len(response.text)}")
-        
-        if response.status_code != 200:
-            logging.error(f"Bedetheque returned status code: {response.status_code}")
-            return None, search_url
-        
-        # Check if we're being blocked (very short response)
-        if len(response.text) < 1000:
-            logging.warning("Possible blocking detected (short response)")
-            # Try an alternative approach - use a different URL pattern
-            return search_bedetheque_alternative(comic_name, interactive_mode)
-        
-        response.raise_for_status()
-        
-        # Delay after the request
-        if not interactive_mode:
-            logging.info(f"Waiting {DELAY_SECONDS} seconds after search...")
-            time.sleep(DELAY_SECONDS)
-        
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Look for search results
-        results = soup.find_all('div', class_='liste-series')
-        
-        if not results:
-            logging.warning("No search results found on the page")
-            # Try to find any links that might be results
-            all_links = soup.find_all('a', href=True)
-            for link in all_links:
-                href = link['href']
-                if ('/serie-' in href or '/BD-' in href) and 'recherche' not in href:
-                    full_url = f"https://www.bedetheque.com{href}" if href.startswith('/') else href
-                    logging.info(f"Found series link: {full_url}")
-                    return full_url, search_url
-            return None, search_url
-        
-        # Extract links from search results
-        for result in results:
-            links = result.find_all('a', href=True)
-            for link in links:
-                href = link['href']
-                if '/serie-' in href or '/BD-' in href:
-                    full_url = f"https://www.bedetheque.com{href}" if href.startswith('/') else href
-                    logging.info(f"Found series link in results: {full_url}")
-                    return full_url, search_url
-        
-        logging.warning(f"No valid bedetheque.com links found for '{comic_name}'")
-        return None, search_url
-        
-    except requests.RequestException as e:
-        logging.error(f"Bedetheque search error for '{comic_name}': {str(e)}")
-        if not interactive_mode:
-            time.sleep(DELAY_SECONDS)
-        return None, search_url
-
-def search_bedetheque_alternative(comic_name, interactive_mode):
-    """Alternative search method using different approach"""
-    try:
-        # Try a more direct approach - construct URL manually
-        # Format: https://www.bedetheque.com/BD-[Comic-Name].html
-        formatted_name = comic_name.lower().replace(' ', '-').replace("'", '').replace('é', 'e').replace('è', 'e')
-        potential_url = f"https://www.bedetheque.com/BD-{formatted_name}.html"
-        
-        # Test if this URL exists
-        session = create_session()
-        response = session.get(potential_url, timeout=15, allow_redirects=False)
-        
-        if response.status_code == 200:
-            logging.info(f"Found direct URL: {potential_url}")
-            return potential_url, f"Direct URL test for {comic_name}"
-        
-        # If not found, try series format
-        series_url = f"https://www.bedetheque.com/serie-{formatted_name}.html"
-        response = session.get(series_url, timeout=15, allow_redirects=False)
-        
-        if response.status_code == 200:
-            logging.info(f"Found series URL: {series_url}")
-            return series_url, f"Series URL test for {comic_name}"
-        
-        return None, f"Alternative search for {comic_name}"
-        
-    except requests.RequestException as e:
-        logging.error(f"Alternative search error for '{comic_name}': {str(e)}")
-        return None, f"Alternative search for {comic_name}"
+    url = input("URL: ").strip()
+    if url and url.startswith('http'):
+        return url
+    return None
 
 def get_cover_url(serie_url, interactive_mode):
     """Extract cover URL from a serie page"""
     try:
-        session = create_session()
-        response = session.get(serie_url, timeout=30)
+        # Use a random user agent
+        user_agent = random.choice(USER_AGENTS)
+        
+        response = requests.get(
+            serie_url,
+            headers={
+                'User-Agent': user_agent,
+                'Accept-Language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+                'Referer': 'https://www.google.com/'
+            },
+            timeout=30
+        )
+        
+        # Check if we're blocked
+        if response.status_code == 403 or "access denied" in response.text.lower():
+            logging.error("IP appears to be blocked. Waiting longer before continuing.")
+            time.sleep(300)  # Wait 5 minutes if blocked
+            return None
+            
         response.raise_for_status()
         
         # Delay after the request
@@ -199,19 +112,6 @@ def get_cover_url(serie_url, interactive_mode):
                 return f"https://www.bedetheque.com{src}"
             else:
                 return src
-        
-        # 3. Look for any image in the content area
-        content_div = soup.find('div', class_='content') or soup.find('div', class_='album-detail')
-        if content_div:
-            content_img = content_div.find('img')
-            if content_img and content_img.get('src'):
-                src = content_img.get('src')
-                if src.startswith('//'):
-                    return f"https:{src}"
-                elif src.startswith('/'):
-                    return f"https://www.bedetheque.com{src}"
-                else:
-                    return src
         
         return None
         
@@ -264,17 +164,21 @@ def process_row(index, row, df, interactive_mode):
             terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: filled - Result: Found - Cover: not found"
             file_status = "Found (no cover)"
     
-    # Case 3: Link is empty - search for comic
+    # Case 3: Link is empty - use manual fallback
     elif not current_link:
-        new_link, search_url = search_bedetheque_direct(comic_name, interactive_mode)
-        if new_link:
-            df.at[index, LINK_COL] = new_link
-            cover_url = get_cover_url(new_link, interactive_mode)
-            if cover_url:
-                df.at[index, COVER_COL] = cover_url
-            updated = True
-            terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: empty - Result: Found - Cover: {'found' if cover_url else 'not found'}"
-            file_status = "Found (new)"
+        if interactive_mode:
+            new_link = manual_search_fallback(comic_name)
+            if new_link:
+                df.at[index, LINK_COL] = new_link
+                cover_url = get_cover_url(new_link, interactive_mode)
+                if cover_url:
+                    df.at[index, COVER_COL] = cover_url
+                updated = True
+                terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: empty - Result: Found (manual) - Cover: {'found' if cover_url else 'not found'}"
+                file_status = "Found (manual)"
+            else:
+                terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: empty - Result: Skipped (manual) - Cover: n/a"
+                file_status = "Skipped (manual)"
         else:
             terminal_status = f"[{datetime.now().strftime('%m%d %H%M')}] - Row: {index} - {comic_name} - link: empty - Result: not Found - Cover: n/a"
             file_status = "not Found"
@@ -349,6 +253,13 @@ def main():
     
     setup_logging()
     logging.info(f"Starting processing with {'interactive' if args.interactive else 'non-interactive'} mode")
+    
+    # Warning about potential IP blocking
+    if not args.interactive:
+        print("\nWARNING: Automated requests may result in IP blocking.")
+        print("Consider using interactive mode (-i) for manual URL entry.")
+        print("Waiting 10 seconds before starting...")
+        time.sleep(10)
     
     process_excel_file(args.input_file, args.output_file, args.interactive)
 
