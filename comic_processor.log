@@ -16732,3 +16732,929 @@
 2025-08-20 20:33:32,072 - ERROR - Cover fetch error for 'zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz': Invalid URL 'zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz': No scheme supplied. Perhaps you meant https://zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz?
 20250820,203432,Row,8368,zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz,zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz,Found (no cover),empty,empty
 2025-08-20 20:34:34,709 - INFO - Processing complete
+2025-08-21 23:38:18,481 - INFO - Starting processing with non-interactive mode
+2025-08-21 23:38:18,481 - ERROR - Error processing file: Missing optional dependency 'xlrd'. Install xlrd >= 2.0.1 for xls Excel support Use pip or conda to install xlrd.
+2025-08-21 23:38:48,999 - INFO - Starting processing with non-interactive mode
+20250821,233849,Row,3,2050,https://www.bedetheque.com/serie-91427-BD-2050.html,Skipping (both exist),empty,empty
+20250821,233851,Row,4,1629 Ou L'Effrayante Histoire Des Naufrages Du Jakarta,https://www.bedetheque.com/serie-81130-BD-1629-ou-l-effrayante-histoire-des-naufrages-du-Jakarta.html,Skipping (both exist),empty,empty
+20250821,233853,Row,5,10 Petits Insectes,https://www.bedetheque.com/serie-22679-BD-10-petits-insectes.html,Skipping (both exist),empty,empty
+20250821,233855,Row,6,100 Ames,https://www.bedetheque.com/serie-9979-BD-100-ames.html,Skipping (both exist),empty,empty
+20250821,233857,Row,7,100 Bullets,https://www.bedetheque.com/serie-22442-BD-100-Bullets-1999.html,Skipping (both exist),empty,empty
+20250821,233859,Row,8,100 Maisons La Cite Des Abeilles,https://www.bedetheque.com/serie-46216-BD-100-maisons-La-cite-des-abeilles.html,Skipping (both exist),empty,empty
+20250821,233902,Row,9,109 Rue Des Soupirs,https://www.bedetheque.com/serie-66902-BD-109-rue-des-Soupirs.html,Skipping (both exist),empty,empty
+20250821,233904,Row,10,11 Septembre 2001 - Le Jour Ou Le Monde A Bascule,https://www.bedetheque.com/serie-76067-BD-11-septembre-2001-le-jour-ou-le-monde-a-bascule.html,Skipping (both exist),empty,empty
+20250821,233906,Row,11,12 La Douce,https://www.bedetheque.com/BD-12-la-Douce-12-La-Douce-160633.html,Skipping (both exist),empty,empty
+20250821,233908,Row,12,12 Pilotes,https://www.bedetheque.com/serie-44854-BD-12-pilotes.html,Skipping (both exist),empty,empty
+20250821,233910,Row,13,12 Septembre,https://www.bedetheque.com/serie-29527-BD-12-septembre.html,Skipping (both exist),empty,empty
+20250821,233912,Row,14,13 Devil Street,https://www.bedetheque.com/serie-50304-BD-13-Devil-Street.html,Skipping (both exist),empty,empty
+20250821,233914,Row,15,13 Rue De L’Espoir,https://www.bedetheque.com/serie-9461-BD-13-rue-de-l-espoir.html,Skipping (both exist),empty,empty
+20250821,233916,Row,16,13/11 Reconstitution D'Un Attentat,https://www.bedetheque.com/serie-54316-BD-13-11-reconstitution-d-un-attentat.html,Skipping (both exist),empty,empty
+20250821,233919,Row,17,13H17 Dans La Vie De Jonathan Lassiter,https://www.bedetheque.com/serie-83975-BD-13h17-dans-la-vie-de-Jonathan-Lassiter.html,Skipping (both exist),empty,empty
+20250821,233921,Row,18,13M28,https://www.bedetheque.com/serie-25093-BD-13m28.html,Skipping (both exist),empty,empty
+20250821,233923,Row,19,14 Juillet Destins D'Une Revolution,https://www.bedetheque.com/serie-79527-BD-14-juillet-Destins-d-une-revolution.html,Skipping (both exist),empty,empty
+20250821,233925,Row,20,14-18,https://www.bedetheque.com/serie-44194-BD-14-18-Corbeyran-Le-Roux.html,Skipping (both exist),empty,empty
+20250821,233927,Row,21,1529 - Le Siege De Vienne,https://www.bedetheque.com/serie-83222-BD-1529-le-siege-de-Vienne.html,Skipping (both exist),empty,empty
+20250821,233930,Row,22,1629 Ou L'Effrayante Histoire Des Naufrages Du Jakarta,https://www.bedetheque.com/serie-81130-BD-1629-ou-l-effrayante-histoire-des-naufrages-du-Jakarta.html,Skipping (both exist),empty,empty
+20250821,233932,Row,23,1642,https://www.bedetheque.com/serie-58416-BD-1642-Ville-Marie.html,Skipping (both exist),empty,empty
+20250821,233934,Row,24,17 Piges - Recit D'Une Annee En Prison,https://www.bedetheque.com/serie-77954-BD-17-piges.html,Skipping (both exist),empty,empty
+20250821,233936,Row,25,1789,https://www.bedetheque.com/serie-65971-BD-1789.html,Skipping (both exist),empty,empty
+20250821,233939,Row,26,18 Ans En Bd,https://www.bedetheque.com/serie-68860-BD-18-ans-en-BD.html,Skipping (both exist),empty,empty
+20250821,233941,Row,27,1907 - La Revolte Des Vignerons,https://www.bedetheque.com/serie-14938-BD-Revolte-des-vignerons.html,Skipping (both exist),empty,empty
+20250821,233944,Row,28,1907 Les Vendanges Rouges,https://www.bedetheque.com/serie-17661-BD-1907-les-vendanges-rouges.html,Skipping (both exist),empty,empty
+20250821,233946,Row,29,1940 - Et Si La France Avait Continue La Guerre,https://www.bedetheque.com/serie-48934-BD-1940-Et-si-la-France-avait-continue-la-guerre.html,Skipping (both exist),empty,empty
+20250821,233948,Row,30,1984,https://www.bedetheque.com/serie-72615-BD-1984-Derrien.html,Skipping (both exist),empty,empty
+2025-08-21 23:39:52,098 - INFO - Waiting 60 seconds after cover request...
+20250821,234052,Row,31,1984 - George Orwell,https://www.franceinter.fr/culture/bande-dessinee-1984-de-george-orwell-trois-regards-sur-une-meme-oeuvre,Found (no cover),empty,empty
+20250821,234054,Row,32,199 Combats,https://www.bedetheque.com/serie-19179-BD-199-combats.html,Skipping (both exist),empty,empty
+20250821,234056,Row,33,2 Hot Girls On A Hot Summer Night,https://www.bedetheque.com/serie-36159-BD-Eros-Graphic-Albums-Fantagraphics-Books-1992.html,Skipping (both exist),empty,empty
+20250821,234058,Row,34,20 Ans En Bd,https://www.bedetheque.com/serie-72168-BD-20-ans-en-BD.html,Skipping (both exist),empty,empty
+20250821,234100,Row,35,20000 Lieues Sous Les Mers,https://www.bedetheque.com/serie-62426-BD-20-000-lieues-sous-les-mers-Gianni.html,Skipping (both exist),empty,empty
+20250821,234102,Row,36,20000 Siecles Sous Les Mers,https://www.bedetheque.com/serie-25899-BD-20-000-siecles-sous-les-mers.html,Skipping (both exist),empty,empty
+20250821,234105,Row,37,20000 Vieux Sous La Terre,https://www.bedetheque.com/serie-6866-BD-Vingt-mille-vieux-sous-la-Terre.html,Skipping (both exist),empty,empty
+20250821,234107,Row,38,2021,https://www.bedetheque.com/serie-33537-BD-2021.html,Skipping (both exist),empty,empty
+20250821,234109,Row,39,21 Jours Avant La Fin Du Monde,https://www.bedetheque.com/serie-70863-BD-21-jours-avant-la-fin-du-Monde.html,Skipping (both exist),empty,empty
+20250821,234111,Row,40,22,https://www.bedetheque.com/serie-41108-BD-22.html,Skipping (both exist),empty,empty
+20250821,234113,Row,41,24 Heures De La Vie d'Une Femme,https://www.bedetheque.com/serie-59545-BD-24-heures-de-la-vie-d-une-femme.html,Skipping (both exist),empty,empty
+20250821,234115,Row,42,24 Heures Du Mans,https://www.bedetheque.com/serie-45021-BD-24-Heures-du-Mans.html,Skipping (both exist),empty,empty
+20250821,234117,Row,43,24h Du Mans Chrono,https://www.bedetheque.com/serie-66047-BD-24-heures-du-Mans-Chrono.html,Skipping (both exist),empty,empty
+20250821,234120,Row,44,28 Jours Plus Tard,https://www.bedetheque.com/serie-16799-BD-28-jours-plus-tard.html,Skipping (both exist),empty,empty
+20250821,234122,Row,45,2eme Manuel Des Castors Juniors,https://www.bedetheque.com/serie-36740-BD-Manuel-des-Castors-juniors-2e-serie.html,Skipping (both exist),empty,empty
+20250821,234124,Row,46,3 Cases Pour 1 Chute,https://www.bedetheque.com/serie-69229-BD-3-cases-pour-1-chute.html,Skipping (both exist),empty,empty
+20250821,234126,Row,47,3 Fois Rien,https://www.bedetheque.com/serie-21323-BD-3-fois-rien.html,Skipping (both exist),empty,empty
+20250821,234128,Row,48,3 Secondes,https://www.bedetheque.com/serie-29515-BD-3.html,Skipping (both exist),empty,empty
+20250821,234131,Row,49,3 Souhaits,https://www.bedetheque.com/serie-24282-BD-3-souhaits.html,Skipping (both exist),empty,empty
+20250821,234133,Row,50,30 Ans En Bd,https://www.bedetheque.com/serie-71087-BD-30-ans-en-BD.html,Skipping (both exist),empty,empty
+20250821,234135,Row,51,30 Jours de Nuit,https://www.bedetheque.com/serie-8819-BD-30-jours-de-nuit.html,Skipping (both exist),empty,empty
+20250821,234137,Row,52,300 Grammes,https://www.bedetheque.com/serie-71205-BD-300-Grammes.html,Skipping (both exist),empty,empty
+20250821,234140,Row,53,4 Kids Walk Into A Bank,https://www.previewsworld.com/Catalog/FEB161207,Skipping (both exist),empty,empty
+20250821,234142,Row,54,40 Ans En Bd,https://www.bedetheque.com/serie-72565-BD-40-ans-en-BD.html,Skipping (both exist),empty,empty
+20250821,234144,Row,55,40 Elephants,https://www.bedetheque.com/serie-58510-BD-40-elephants.html,Skipping (both exist),empty,empty
+20250821,234147,Row,56,42 Agents Intergalactiques,https://www.bedetheque.com/serie-13955-BD-42-Agents-Intergalactiques.html,Skipping (both exist),empty,empty
+20250821,234149,Row,57,421,https://www.bedetheque.com/serie-556-BD-421.html,Skipping (both exist),empty,empty
+20250821,234151,Row,58,44 Apres Ronny,https://www.bedetheque.com/serie-55946-BD-44-apres-Ronny.html,Skipping (both exist),empty,empty
+20250821,234154,Row,59,47 Cordes,https://www.bedetheque.com/serie-76751-BD-47-cordes.html,Skipping (both exist),empty,empty
+20250821,234156,Row,60,5 Mondes,https://www.bedetheque.com/serie-56066-BD-5-mondes.html,Skipping (both exist),empty,empty
+20250821,234158,Row,61,50 Ans En Bd,https://www.bedetheque.com/serie-67647-BD-50-ans-en-BD.html,Skipping (both exist),empty,empty
+20250821,234201,Row,62,50 Nuances De Grecs,https://www.bedetheque.com/serie-59303-BD-50-nuances-de-grecs.html,Skipping (both exist),empty,empty
+20250821,234203,Row,63,55 Minutes,https://www.bedetheque.com/serie-61138-BD-55-minutes.html,Skipping (both exist),empty,empty
+20250821,234205,Row,64,6 Jours Et Mourir,https://www.bedetheque.com/serie-1338-BD-6-jours-et-mourir.html,Skipping (both exist),empty,empty
+20250821,234207,Row,65,60 Ans En Bd,https://www.bedetheque.com/serie-78397-BD-60-ans-en-BD.html,Skipping (both exist),empty,empty
+20250821,234210,Row,66,666,https://www.bedetheque.com/serie-1689-BD-666.html,Skipping (both exist),empty,empty
+20250821,234212,Row,67,6666,https://www.bedetheque.com/serie-8700-BD-6666.html,Skipping (both exist),empty,empty
+20250821,234214,Row,68,7 Generations,https://www.leslibraires.ca/livres/7-generations-t-1-pierre-suivi-david-robertson-9782896113927.html,Skipping (both exist),empty,empty
+20250821,234217,Row,69,7 Secondes,https://www.bedetheque.com/serie-486-BD-7-secondes.html,Skipping (both exist),empty,empty
+20250821,234219,Row,70,9-11,https://www.bedetheque.com/serie-25422-BD-9-11.html,Skipping (both exist),empty,empty
+20250821,234221,Row,71,9603 Kilometres,https://www.bedetheque.com/serie-71092-BD-9-603-kilometres.html,Skipping (both exist),empty,empty
+20250821,234224,Row,72,999 - A L'Aube De Rien Du Tout,https://www.bedetheque.com/serie-56972-BD-999-A-l-aube-de-rien-du-tout.html,Skipping (both exist),empty,empty
+20250821,234226,Row,73,A 18 Ans Sous Les Balles Au Vercors,https://www.bedetheque.com/serie-17120-BD-A-18-ans-sous-les-balles-au-Vercors.html,Skipping (both exist),empty,empty
+20250821,234228,Row,74,A Bas L'Amour Copain,https://www.bedetheque.com/serie-5209-BD-A-bas-l-amour-copain.html,Skipping (both exist),empty,empty
+20250821,234230,Row,75,A Bord De L'Aquarius,https://www.bedetheque.com/serie-64000-BD-A-bord-de-l-Aquarius.html,Skipping (both exist),empty,empty
+20250821,234233,Row,76,A Bord Des,https://www.bedetheque.com/serie-74573-BD-A-bord.html,Skipping (both exist),empty,empty
+20250821,234235,Row,77,A Bout De Bras - La Folle Saga Des Freres Acaries,https://www.bedetheque.com/serie-76967-BD-A-bout-de-bras-La-folle-saga-des-freres-Acaries.html,Skipping (both exist),empty,empty
+20250821,234237,Row,78,A Cheval,https://www.bedetheque.com/serie-49292-BD-A-Cheval.html,Skipping (both exist),empty,empty
+20250821,234240,Row,79,A Comme Eiffel,https://www.bedetheque.com/serie-65191-BD-A-comme-Eiffel.html,Skipping (both exist),empty,empty
+20250821,234242,Row,80,A Coucher Dehors,https://www.bedetheque.com/serie-53160-BD-A-coucher-dehors.html,Skipping (both exist),empty,empty
+20250821,234244,Row,81,A Doll A,https://www.bedetheque.com/serie-19281-BD-ADolla.html,Skipping (both exist),empty,empty
+20250821,234247,Row,82,A Fake Story,https://www.bedetheque.com/serie-72705-BD-A-Fake-Story.html,Skipping (both exist),empty,empty
+20250821,234249,Row,83,A Fleur De Peau,https://www.bedetheque.com/serie-23929-BD-A-fleur-de-peau-Asakura.html,Skipping (both exist),empty,empty
+2025-08-21 23:42:52,787 - ERROR - Cover fetch error for 'https://www.comixology.fr/A-Fractured-Mind-1-of-4/bd-numerique/538873': 503 Server Error: Service Unavailable for url: https://www.amazon.fr:443/s/?fst=as:off&rh=n:672108031,n:!672109031,n:695398031,n:891653031&bbn=695398031&ie=UTF8&qid=1589400617&rnid=695398031
+20250821,234352,Row,84,A Fractured Mind,https://www.comixology.fr/A-Fractured-Mind-1-of-4/bd-numerique/538873,Found (no cover),empty,empty
+20250821,234354,Row,85,A Game of Thrones,https://www.bedetheque.com/serie-36095-BD-A-Game-of-Thrones.html,Skipping (both exist),empty,empty
+20250821,234357,Row,86,A History Of Violence,https://www.bedetheque.com/serie-12639-BD-A-History-of-Violence.html,Skipping (both exist),empty,empty
+20250821,234359,Row,87,A L'Ancienne,https://www.bedetheque.com/serie-65797-BD-A-l-ancienne.html,Skipping (both exist),empty,empty
+20250821,234401,Row,88,A L'Arret,https://www.bedetheque.com/serie-84952-BD-A-l-arret.html,Skipping (both exist),empty,empty
+20250821,234403,Row,89,A L'eau La Terre,https://www.bedetheque.com/serie-23018-BD-A-l-eau-la-Terre.html,Skipping (both exist),empty,empty
+20250821,234405,Row,90,A L'Ecole Des Lettres,https://www.bedetheque.com/serie-85688-BD-A-l-ecole-des-Lettres.html,Skipping (both exist),empty,empty
+20250821,234407,Row,91,A L'Ombre De La Croix,https://www.bedetheque.com/serie-7780-BD-A-l-Ombre-de-la-Croix.html,Skipping (both exist),empty,empty
+20250821,234410,Row,92,A L'Ombre Des Etoiles,https://www.bedetheque.com/serie-7867-BD-A-l-ombre-des-etoiles.html,Skipping (both exist),empty,empty
+20250821,234412,Row,93,A L'Ombre Des Tours Mortes,https://www.bedetheque.com/serie-9935-BD-A-l-Ombre-des-Tours-Mortes.html,Skipping (both exist),empty,empty
+20250821,234414,Row,94,A L'Ombre Du Convoi,https://www.bedetheque.com/serie-31813-BD-A-l-ombre-du-convoi.html,Skipping (both exist),empty,empty
+20250821,234416,Row,95,A L'Origine Des Contes,https://www.bedetheque.com/serie-40309-BD-A-l-Origine-des-Contes.html,Skipping (both exist),empty,empty
+20250821,234419,Row,96,A L'Ouest De L'Eden,https://www.bedetheque.com/serie-3935-BD-A-l-ouest-de-l-Eden.html,Skipping (both exist),empty,empty
+20250821,234421,Row,97,A L'Ouest De Tokyo,https://www.bedetheque.com/serie-10644-BD-A-l-ouest-de-Tokyo.html,Skipping (both exist),empty,empty
+20250821,234423,Row,98,A La Croisee Des Mondes,https://www.bedetheque.com/serie-44438-BD-A-la-croisee-des-mondes.html,Skipping (both exist),empty,empty
+20250821,234425,Row,99,A La Derive,https://www.bedetheque.com/serie-45643-BD-A-la-derive.html,Skipping (both exist),empty,empty
+20250821,234428,Row,100,A La Lettre Pres,https://www.bedetheque.com/serie-10792-BD-A-la-lettre-pres.html,Skipping (both exist),empty,empty
+20250821,234430,Row,101,A La Poursuite De Jack Gilet,https://www.bedetheque.com/serie-91902-BD-A-la-poursuite-de-Jack-Gilet.html,Skipping (both exist),empty,empty
+20250821,234432,Row,102,A La Recherche De Gil Scott Heron,https://www.bedetheque.com/serie-79445-BD-A-la-recherche-de-Gil-Scott-Heron.html,Skipping (both exist),empty,empty
+20250821,234435,Row,103,A La Recherche De L'Homme Sauvage,https://www.bedetheque.com/serie-82989-BD-A-la-recherche-de-l-homme-sauvage.html,Skipping (both exist),empty,empty
+20250821,234437,Row,104,A La Recherche De La Licorne,https://www.bedetheque.com/serie-1126-BD-A-la-recherche-de-la-Licorne.html,Skipping (both exist),empty,empty
+20250821,234440,Row,105,A La Recherche De La Mandragore,https://www.bedetheque.com/serie-26059-BD-A-la-recherche-de-la-Mandragore.html,Skipping (both exist),empty,empty
+20250821,234442,Row,106,A La Recherche De Moby Dick,https://www.bedetheque.com/serie-65712-BD-A-la-recherche-de-Moby-Dick.html,Skipping (both exist),empty,empty
+20250821,234444,Row,107,A La Recherche De Peter Pan,https://www.bedetheque.com/serie-77-BD-A-la-recherche-de-Peter-Pan.html,Skipping (both exist),empty,empty
+20250821,234447,Row,108,A La Recherche Du Monstre,https://www.bedetheque.com/serie-51232-BD-A-la-recherche-du-monstre.html,Skipping (both exist),empty,empty
+20250821,234449,Row,109,A La Recherche Du Temps Perdu,https://www.bedetheque.com/serie-3139-BD-A-la-recherche-du-temps-perdu-Heuet.html,Skipping (both exist),empty,empty
+20250821,234452,Row,110,A La Vie A La Mort,https://www.bedetheque.com/serie-57398-BD-A-la-vie-a-la-mort.html,Skipping (both exist),empty,empty
+20250821,234454,Row,111,A L’Annee Prochaine,https://www.bedetheque.com/serie-75172-BD-A-l-annee-prochaine.html,Skipping (both exist),empty,empty
+20250821,234456,Row,112,A Mains Nues,https://www.bedetheque.com/serie-71898-BD-A-mains-nues.html,Skipping (both exist),empty,empty
+20250821,234459,Row,113,A Mourir Entre Les Bras De Ma Nourrice,https://www.bedetheque.com/serie-86963-BD-A-mourir-entre-les-bras-de-ma-nourrice.html,Skipping (both exist),empty,empty
+20250821,234501,Row,114,A Pink Story,https://www.bedetheque.com/serie-76420-BD-A-pink-story.html,Skipping (both exist),empty,empty
+20250821,234503,Row,115,A Pleines Mains,https://www.bedetheque.com/serie-78176-BD-A-Pleines-Mains.html,Skipping (both exist),empty,empty
+20250821,234506,Row,116,A Prix D'Or,https://www.bedetheque.com/serie-80876-BD-A-prix-d-or.html,Skipping (both exist),empty,empty
+20250821,234508,Row,117,A Qui Profite L'Exil Le Business Des Frontieres Fermees,https://www.bdtheque.com/series/22752/a-qui-profite-l-exil-le-business-des-frontieres-fermees,Skipping (both exist),empty,empty
+20250821,234511,Row,118,A Quoi Pensent Les Russes,https://www.bedetheque.com/serie-86176-BD-A-quoi-pensent-les-Russes.html,Skipping (both exist),empty,empty
+20250821,234513,Row,119,A Short Story - La Veritable Histoire De Dahlia Noir,https://www.bedetheque.com/serie-80441-BD-A-Short-Story-La-Veritable-histoire-du-Dahlia-Noir.html,Skipping (both exist),empty,empty
+20250821,234515,Row,120,A Train Called Love,https://www.bedetheque.com/serie-53669-BD-A-Train-Called-Loved.html,Skipping (both exist),empty,empty
+20250821,234518,Row,121,A Tribord Toute - Histoire De La Droite En Bb,https://www.bedetheque.com/serie-81990-BD-A-tribord-toute.html,Skipping (both exist),empty,empty
+20250821,234520,Row,122,A Vendre,https://www.bedetheque.com/serie-35404-BD-A-vendre.html,Skipping (both exist),empty,empty
+20250821,234522,Row,123,Aama,https://www.bedetheque.com/serie-30073-BD-Aama.html,Skipping (both exist),empty,empty
+20250821,234525,Row,124,Aarib,https://www.bedetheque.com/serie-14955-BD-Aarib.html,Skipping (both exist),empty,empty
+20250821,234527,Row,125,Aaron,https://www.bedetheque.com/serie-76217-BD-Aaron.html,Skipping (both exist),empty,empty
+20250821,234530,Row,126,Ab Irato,https://www.bedetheque.com/serie-24376-BD-Ab-Irato.html,Skipping (both exist),empty,empty
+20250821,234532,Row,127,Ab Irato,https://www.bedetheque.com/serie-24376-BD-Ab-Irato.html,Skipping (both exist),empty,empty
+20250821,234534,Row,128,Abaddon,https://www.bedetheque.com/serie-83717-BD-Abaddon-Bec-Carrey.html,Skipping (both exist),empty,empty
+2025-08-21 23:45:37,887 - INFO - Waiting 60 seconds after cover request...
+20250821,234637,Row,129,Abattoir,https://www.mycomicshop.com/search?TID=21586907,Found (no cover),empty,empty
+20250821,234640,Row,130,Abbe Brown,https://www.bedetheque.com/serie-2286-BD-Abbe-Brown.html,Skipping (both exist),empty,empty
+20250821,234642,Row,131,Abbe Pierre,https://www.bedetheque.com/serie-8318-BD-Abbe-Pierre.html,Skipping (both exist),empty,empty
+20250821,234645,Row,132,Abdallahi,https://www.bedetheque.com/serie-13139-BD-Abdallahi.html,Skipping (both exist),empty,empty
+20250821,234648,Row,133,Abel Dopeulapeul,https://www.bedetheque.com/serie-717-BD-Abel-Dopeulapeul-Abe-le-prive.html,Skipping (both exist),empty,empty
+20250821,234651,Row,134,Abelard,https://www.bedetheque.com/serie-28365-BD-Abelard-Alvin.html,Skipping (both exist),empty,empty
+20250821,234653,Row,135,Abelard - Alvin,https://www.bedetheque.com/serie-28365-BD-Abelard-Alvin.html,Skipping (both exist),empty,empty
+20250821,234656,Row,136,Aberzen,https://www.bedetheque.com/serie-1366-BD-Aberzen.html,Skipping (both exist),empty,empty
+20250821,234658,Row,137,Abominable,https://www.bedetheque.com/serie-160-BD-Abominable.html,Skipping (both exist),empty,empty
+20250821,234701,Row,138,Abraxas,https://www.bedetheque.com/serie-456-BD-Abraxas.html,Skipping (both exist),empty,empty
+20250821,234703,Row,139,Absolument Normal,https://www.bedetheque.com/serie-73621-BD-Absolument-normal.html,Skipping (both exist),empty,empty
+20250821,234706,Row,140,Abymes,https://www.bedetheque.com/serie-36326-BD-Abymes.html,Skipping (both exist),empty,empty
+20250821,234708,Row,141,Accros De,https://www.bedetheque.com/serie-8262-BD-Accros-de.html,Skipping (both exist),empty,empty
+20250821,234711,Row,142,Achab,https://www.bedetheque.com/serie-16581-BD-Achab.html,Skipping (both exist),empty,empty
+20250821,234714,Row,143,Achille,https://www.bedetheque.com/serie-60846-BD-Achille.html,Skipping (both exist),empty,empty
+20250821,234716,Row,144,Achille Talon,https://www.bedetheque.com/serie-33-BD-Achille-Talon.html,Skipping (both exist),empty,empty
+20250821,234719,Row,145,Acriborea,https://www.bedetheque.com/serie-13233-BD-Acriborea.html,Skipping (both exist),empty,empty
+2025-08-21 23:47:23,536 - INFO - Waiting 60 seconds after cover request...
+20250821,234823,Row,146,Action Man,https://www.bleedingcool.com/2016/03/22/the-new-idw-hasbro-action-man-comic-gets-a-spotlight-in-june/,Found (no cover),empty,empty
+20250821,234825,Row,147,AD Grand-Riviere,https://www.bedetheque.com/serie-569-BD-AD-Grand-Riviere.html,Skipping (both exist),empty,empty
+20250821,234827,Row,148,Ad Romam,https://www.bedetheque.com/serie-70539-BD-Ad-Romam.html,Skipping (both exist),empty,empty
+20250821,234830,Row,149,Ada,https://www.bdgest.com/chronique-9049-BD-Ada-Baldi-Ada.html,Skipping (both exist),empty,empty
+20250821,234832,Row,150,Ada Enigma,https://www.bedetheque.com/serie-3473-BD-Ada-Enigma.html,Skipping (both exist),empty,empty
+20250821,234834,Row,151,Adam,https://www.bedetheque.com/serie-1896-BD-Adam.html,Skipping (both exist),empty,empty
+20250821,234836,Row,152,Adam Et Eve,https://www.bedetheque.com/serie-58625-BD-Adam-et-Eve.html,Skipping (both exist),empty,empty
+20250821,234839,Row,153,Adam Sarlech,https://www.bedetheque.com/serie-3890-BD-Adam-Sarlech.html,Skipping (both exist),empty,empty
+20250821,234841,Row,154,Adamson,https://www.bedetheque.com/serie-17682-BD-Adamson-Puerta.html,Skipping (both exist),empty,empty
+20250821,234844,Row,155,Adastra In Africa,https://www.bedetheque.com/serie-91240-BD-Adastra-in-Africa.html,Skipping (both exist),empty,empty
+20250821,234847,Row,156,Adelin Et Irina,https://www.bedetheque.com/serie-65173-BD-Adelin-et-Irina.html,Skipping (both exist),empty,empty
+20250821,234849,Row,157,Adieu Birkenau - Ginette Kolinka,https://www.bedetheque.com/serie-85963-BD-Adieu-Birkenau.html,Skipping (both exist),empty,empty
+20250821,234852,Row,158,Adieu Brindavoine,https://www.bedetheque.com/serie-718-BD-Adieu-Brindavoine.html,Skipping (both exist),empty,empty
+20250821,234854,Row,159,Adieu Kharkov,https://www.bedetheque.com/serie-48818-BD-Adieu-Kharkov.html,Skipping (both exist),empty,empty
+20250821,234857,Row,160,Adieu Melancolie,https://www.bedetheque.com/serie-9571-BD-Adieu-melancolie.html,Skipping (both exist),empty,empty
+20250821,234900,Row,161,Adieu Monde Cruel,https://www.bedetheque.com/serie-56172-BD-Adieu-monde-cruel.html,Skipping (both exist),empty,empty
+20250821,234902,Row,162,Adios Muchachos,https://www.bedetheque.com/serie-30048-BD-Adios-muchachos.html,Skipping (both exist),empty,empty
+20250821,234905,Row,163,Adler,https://www.bedetheque.com/serie-555-BD-Adler.html,Skipping (both exist),empty,empty
+20250821,234907,Row,164,Adler - L'Aigle A Deux Tetes,https://www.bedetheque.com/serie-57947-BD-Adler-l-aigle-a-deux-tetes.html,Skipping (both exist),empty,empty
+20250821,234909,Row,165,Adlivun,https://www.bedetheque.com/serie-77952-BD-Adlivun.html,Skipping (both exist),empty,empty
+20250821,234912,Row,166,ADN,https://www.bedetheque.com/serie-6726-BD-ADN.html,Skipping (both exist),empty,empty
+20250821,234914,Row,167,Adostars,https://www.bedetheque.com/serie-15318-BD-Adostars.html,Skipping (both exist),empty,empty
+20250821,234917,Row,168,Adrastee,https://www.bedetheque.com/serie-38218-BD-Adrastee.html,Skipping (both exist),empty,empty
+20250821,234919,Row,169,Adriatica,https://www.bedetheque.com/serie-55229-BD-Adriatica.html,Skipping (both exist),empty,empty
+20250821,234922,Row,170,Aduna - Monde Visible - Monde Invisible,https://www.bedetheque.com/serie-71850-BD-Aduna-Monde-visible-monde-invisible.html,Skipping (both exist),empty,empty
+20250821,234924,Row,171,Aeka,https://www.bedetheque.com/serie-61242-BD-Aeka.html,Skipping (both exist),empty,empty
+20250821,234927,Row,172,Aela,https://www.bedetheque.com/serie-13739-BD-Aela.html,Skipping (both exist),empty,empty
+20250821,234929,Row,173,Affaires D'Etat,https://www.bedetheque.com/serie-74320-BD-Affaires-d-Etat-Extreme-droite.html,Skipping (both exist),empty,empty
+2025-08-21 23:49:32,435 - ERROR - Cover fetch error for 'https://www.bedetheque.com/serie-74320-BD-Affaires-d-Etat-Extreme-droite.htm': 404 Client Error: Not Found for url: https://www.bedetheque.com/serie-74320-BD-Affaires-d-Etat-Extreme-droite.htm
+20250821,235032,Row,174,Affaires D'Etat - Extreme Droite,https://www.bedetheque.com/serie-74320-BD-Affaires-d-Etat-Extreme-droite.htm,Found (no cover),empty,empty
+20250821,235034,Row,175,Affaires D'Etat - Guerre Froide,https://www.bedetheque.com/serie-74319-BD-Affaires-d-Etat-Guerre-froide.html,Skipping (both exist),empty,empty
+20250821,235037,Row,176,Affaires D'Etat - Jihad,https://www.bedetheque.com/serie-74321-BD-Affaires-d-Etat-Jihad.html,Skipping (both exist),empty,empty
+20250821,235039,Row,177,Affaires De Famille,http://liratouva2.blogspot.ch/2012/04/une-affaire-de-famille-de-will-eisner.html,Skipping (both exist),empty,empty
+20250821,235041,Row,178,Affaires En Suspens,https://www.bedetheque.com/serie-43974-BD-Affaires-en-suspens.html,Skipping (both exist),empty,empty
+20250821,235043,Row,179,Afghanistan,https://www.bedetheque.com/serie-6083-BD-Afghanistan.html,Skipping (both exist),empty,empty
+20250821,235046,Row,180,Africa Dreams,https://www.bedetheque.com/serie-23776-BD-Africa-Dreams.html,Skipping (both exist),empty,empty
+20250821,235048,Row,181,Afrika,https://www.bedetheque.com/serie-16515-BD-Afrika-Hermann.html,Skipping (both exist),empty,empty
+20250821,235050,Row,182,Afrikakorps,https://www.bedetheque.com/serie-65452-BD-Afrikakorps.html,Skipping (both exist),empty,empty
+20250821,235053,Row,183,Agata,https://www.bedetheque.com/serie-64138-BD-Agata.html,Skipping (both exist),empty,empty
+20250821,235055,Row,184,Agatha - La Vraie Vie D'Agatha Christie,https://www.bedetheque.com/serie-44599-BD-Agatha-la-vraie-vie-d-Agatha-Christie.html,Skipping (both exist),empty,empty
+20250821,235057,Row,185,Agatha Christie,https://www.bedetheque.com/serie-20831-BD-Agatha-Christie-Integrale-BD.html,Skipping (both exist),empty,empty
+20250821,235100,Row,186,Agence Barbare,https://www.bedetheque.com/serie-6414-BD-Agence-Barbare.html,Skipping (both exist),empty,empty
+20250821,235102,Row,187,Agence Hardy,https://www.bedetheque.com/serie-1624-BD-Agence-Hardy.html,Skipping (both exist),empty,empty
+20250821,235105,Row,188,Agence Interpol,https://www.bedetheque.com/serie-35028-BD-Agence-Interpol.html,Skipping (both exist),empty,empty
+20250821,235107,Row,189,Agence Touristes,https://www.bedetheque.com/serie-23777-BD-Agence-touristes.html,Skipping (both exist),empty,empty
+20250821,235110,Row,190,Agent 47 Birth Of The Hitman,https://www.bedetheque.com/serie-65168-BD-Agent-47-Birth-of-the-Hitman.html,Skipping (both exist),empty,empty
+20250821,235112,Row,191,Agent Secret X-9,https://www.bedetheque.com/serie-54067-BD-Agent-Secret-X-9-Focus.html,Skipping (both exist),empty,empty
+20250821,235115,Row,192,Agent Special,https://www.bedetheque.com/serie-3841-BD-Agent-special-Agorma.html,Skipping (both exist),empty,empty
+20250821,235118,Row,193,Agents Du Mossad,https://www.bedetheque.com/serie-27843-BD-Agents-du-Mossad.html,Skipping (both exist),empty,empty
+20250821,235120,Row,194,Agrippine,https://www.bedetheque.com/serie-4131-BD-Agrippine.html,Skipping (both exist),empty,empty
+20250821,235123,Row,195,Agughia,https://www.bedetheque.com/serie-76283-BD-Agughia.html,Skipping (both exist),empty,empty
+20250821,235125,Row,196,Aguirre,https://www.bedetheque.com/serie-4978-BD-Aguirre-Breccia.html,Skipping (both exist),empty,empty
+20250821,235128,Row,197,Ah Ca Ira,https://www.bedetheque.com/serie-65980-BD-Ah-ca-ira.html,Skipping (both exist),empty,empty
+20250821,235130,Row,198,Ah La Crise,https://www.bedetheque.com/serie-8265-BD-Ah-la-crise.html,Skipping (both exist),empty,empty
+20250821,235133,Row,199,Aida,https://www.bedetheque.com/serie-78852-BD-Aida.html,Skipping (both exist),empty,empty
+20250821,235135,Row,200,Aida A La Croisee Des Chemins,https://www.bedetheque.com/serie-17617-BD-Aida-Vinci.html,Skipping (both exist),empty,empty
+20250821,235138,Row,201,Aie,https://www.bedetheque.com/serie-9047-BD-Aie.html,Skipping (both exist),empty,empty
+20250821,235140,Row,202,Ailefroide Altitude 3954,https://www.bedetheque.com/serie-59874-BD-Ailefroide-Altitude-3954.html,Skipping (both exist),empty,empty
+20250821,235142,Row,203,Ailes De Legende,https://www.bedetheque.com/serie-76630-BD-Ailes-de-legende.html,Skipping (both exist),empty,empty
+20250821,235145,Row,204,Aime Lacapelle,https://www.bedetheque.com/serie-2162-BD-Aime-Lacapelle.html,Skipping (both exist),empty,empty
+20250821,235147,Row,205,Aimer Pour Deux,https://www.bedetheque.com/serie-76567-BD-Aimer-pour-deux.html,Skipping (both exist),empty,empty
+20250821,235150,Row,206,Ainsi Se Tut Zarathoustra,https://www.bedetheque.com/serie-37997-BD-Ainsi-se-tut-Zarathoustra.html,Skipping (both exist),empty,empty
+20250821,235152,Row,207,Ainsi Soit Benoite Groult,https://www.bedetheque.com/serie-40398-BD-Ainsi-soit-Benoite-Groult.html,Skipping (both exist),empty,empty
+20250821,235155,Row,208,Aion,https://www.bedetheque.com/serie-65613-BD-Aion.html,Skipping (both exist),empty,empty
+20250821,235157,Row,209,Air,https://www.bedetheque.com/serie-84857-BD-Air-Pelaez-Porcel.html,Skipping (both exist),empty,empty
+20250821,235200,Row,210,Air America,https://www.bedetheque.com/serie-64781-BD-Air-America.html,Skipping (both exist),empty,empty
+20250821,235202,Row,211,Air Forces - Vietnam,https://www.bedetheque.com/serie-27007-BD-Air-forces-Vietnam.html,Skipping (both exist),empty,empty
+20250821,235205,Row,212,Airborne 44,https://www.bedetheque.com/serie-21586-BD-Airborne-44.html,Skipping (both exist),empty,empty
+20250821,235207,Row,213,Airman,https://www.bedetheque.com/serie-59798-BD-Airman.html,Skipping (both exist),empty,empty
+20250821,235210,Row,214,Ajax - Mortelle Adele,https://www.bedetheque.com/serie-59251-BD-Ajax-Mortelle-Adele.html,Skipping (both exist),empty,empty
+20250821,235212,Row,215,Akarus,https://www.bedetheque.com/serie-5527-BD-Akarus.html,Skipping (both exist),empty,empty
+20250821,235215,Row,216,Akim,https://www.bedetheque.com/serie-18198-BD-Akim-Color.html,Skipping (both exist),empty,empty
+20250821,235217,Row,217,Akira,https://www.bedetheque.com/serie-45257-BD-Akira-2009.html,Skipping (both exist),empty,empty
+20250821,235220,Row,218,Akissi,https://www.bedetheque.com/serie-24816-BD-Akissi.html,Skipping (both exist),empty,empty
+20250821,235222,Row,219,Akkad,https://www.bedetheque.com/serie-72853-BD-Akkad.html,Skipping (both exist),empty,empty
+20250821,235225,Row,220,Aku Le Chasseur Maudit,https://www.bedetheque.com/serie-64843-BD-Aku-le-Chasseur-Maudit.html,Skipping (both exist),empty,empty
+20250821,235227,Row,221,Al Crane,https://www.bedetheque.com/serie-720-BD-Al-Crane.html,Skipping (both exist),empty,empty
+20250821,235230,Row,222,Al'Togo,https://www.bedetheque.com/serie-6112-BD-Al-Togo.html,Skipping (both exist),empty,empty
+20250821,235232,Row,223,Alack Sinner,https://www.bedetheque.com/serie-2110-BD-Alack-Sinner.html,Skipping (both exist),empty,empty
+2025-08-21 23:52:35,659 - INFO - Waiting 60 seconds after cover request...
+20250821,235335,Row,224,Alain Chevallier,https://www.bedetheque.com/serie-2104-BD-Alain-Chevallier.html,Found (no cover),empty,empty
+20250821,235338,Row,225,Alamo,https://www.bedetheque.com/serie-27585-BD-Alamo.html,Skipping (both exist),empty,empty
+20250821,235340,Row,226,Alan Ford,https://www.bedetheque.com/serie-54137-BD-Alan-Ford-original.html,Skipping (both exist),empty,empty
+20250821,235342,Row,227,Alban,https://www.bedetheque.com/serie-1174-BD-Alban.html,Skipping (both exist),empty,empty
+20250821,235344,Row,228,Albany Et Sturgess,https://www.bedetheque.com/serie-721-BD-Albany-Sturgess.html,Skipping (both exist),empty,empty
+20250821,235347,Row,229,Albator - L'Anneau Des Nibelungen,https://www.bedetheque.com/serie-6333-BD-Albator.html,Skipping (both exist),empty,empty
+20250821,235349,Row,230,Albatros,https://www.bedetheque.com/serie-12930-BD-Albatros.html,Skipping (both exist),empty,empty
+20250821,235351,Row,231,Albert 1Er De Monaco,https://www.bedetheque.com/serie-60776-BD-Albert-1er-de-Monaco.html,Skipping (both exist),empty,empty
+20250821,235353,Row,232,Album Mickey,https://www.bedetheque.com/serie-1443-BD-Mickey.html,Skipping (both exist),empty,empty
+20250821,235356,Row,233,Alcester Crowley,https://www.bedetheque.com/serie-2699-BD-Alcester-Crowley.html,Skipping (both exist),empty,empty
+20250821,235358,Row,234,Alcibiade - La Saga De Nuru,https://www.bedetheque.com/serie-79765-BD-Alcibiade-La-saga-de-Nuru.html,Skipping (both exist),empty,empty
+20250821,235401,Row,235,Alcoolique,https://www.bedetheque.com/serie-49177-BD-Alcoolique.html,Skipping (both exist),empty,empty
+20250821,235403,Row,236,Alcyon,https://www.bedetheque.com/serie-42660-BD-Alcyon.html,Skipping (both exist),empty,empty
+20250821,235406,Row,237,Aldebaran,https://www.bedetheque.com/serie-1805-BD-Aldebaran.html,Skipping (both exist),empty,empty
+20250821,235408,Row,238,Aldo Remy,https://www.bedetheque.com/serie-14180-BD-Aldo-Remy.html,Skipping (both exist),empty,empty
+20250821,235411,Row,239,Alea Drumman,https://www.bedetheque.com/serie-83549-BD-Alea-Drumman.html,Skipping (both exist),empty,empty
+20250821,235413,Row,240,Alena,https://www.bedetheque.com/serie-54790-BD-Alena.html,Skipping (both exist),empty,empty
+20250821,235416,Row,241,Alex Clement Est Mort,https://www.bedetheque.com/serie-510-BD-Alex-Clement-est-mort.html,Skipping (both exist),empty,empty
+20250821,235418,Row,242,Alex Magnum,https://www.bedetheque.com/serie-2250-BD-Alex-Magnum.html,Skipping (both exist),empty,empty
+20250821,235420,Row,243,Alexandra David-Neel - Les Chemins De Lhassa,https://www.bedetheque.com/serie-51426-BD-Alexandra-David-Neel-Les-chemins-de-Lhassa.html,Skipping (both exist),empty,empty
+20250821,235423,Row,244,Alexandre L'Epopee,https://www.bedetheque.com/galerie-42860-BD-Alexandre-L-epopee.html,Skipping (both exist),empty,empty
+20250821,235426,Row,245,Alexe,https://www.bedetheque.com/serie-723-BD-Alexe.html,Skipping (both exist),empty,empty
+20250821,235428,Row,246,Alfred Hitchcock,https://www.bedetheque.com/serie-65467-BD-Glenat-9-1-2-Collection.html,Skipping (both exist),empty,empty
+20250821,235431,Row,247,Alfred Nobel - Le Prix De La Paix,https://www.bedetheque.com/serie-77276-BD-Alfred-Nobel-Le-prix-de-la-paix.html,Skipping (both exist),empty,empty
+20250821,235434,Row,248,Alger La Noire,https://www.bedetheque.com/serie-32776-BD-Alger-la-Noire.html,Skipping (both exist),empty,empty
+20250821,235437,Row,249,Alger-Retour,https://www.bedetheque.com/serie-77913-BD-Alger-Retour.html,Skipping (both exist),empty,empty
+20250821,235440,Row,250,Algerie - Une Guerre Francaise,https://www.bedetheque.com/serie-64950-BD-Algerie-une-guerre-francaise.html,Skipping (both exist),empty,empty
+20250821,235442,Row,251,Algernon Woodcock,https://www.bedetheque.com/serie-3460-BD-Algernon-Woodcock.html,Skipping (both exist),empty,empty
+20250821,235445,Row,252,Algues Vertes L'Histoire Interdite,https://www.bedetheque.com/serie-66191-BD-Algues-vertes-l-histoire-interdite.html,Skipping (both exist),empty,empty
+20250821,235448,Row,253,Ali Baba Et Les 40 Voleurs,https://www.bedetheque.com/serie-56777-BD-Ali-Baba-et-les-40-voleurs-Di-Martino.html,Skipping (both exist),empty,empty
+20250821,235451,Row,254,Ali Beber,https://www.bedetheque.com/serie-4627-BD-Ali-Beber.html,Skipping (both exist),empty,empty
+20250821,235454,Row,255,Alice Et Leopold,https://www.bedetheque.com/serie-2619-BD-Alice-et-Leopold.html,Skipping (both exist),empty,empty
+20250821,235456,Row,256,Alice Guy,https://www.bedetheque.com/serie-76401-BD-Alice-Guy.html,Skipping (both exist),empty,empty
+20250821,235459,Row,257,Alice Matheson,https://www.bedetheque.com/serie-47386-BD-Alice-Matheson.html,Skipping (both exist),empty,empty
+20250821,235501,Row,258,Alicia - Prima Ballerina Assoluta,https://www.bedetheque.com/serie-74535-BD-Alicia-Prima-ballerina-assoluta.html,Skipping (both exist),empty,empty
+20250821,235504,Row,259,Alicia Keys,https://www.bedetheque.com/serie-88001-BD-Alicia-Keys.html,Skipping (both exist),empty,empty
+20250821,235507,Row,260,Alien,https://www.bedetheque.com/serie-74462-BD-Alien-2021.html,Skipping (both exist),empty,empty
+20250821,235509,Row,261,Alien - The Illustrated Story,https://www.bedetheque.com/serie-32731-BD-Alien-The-illustrated-story-1979.html,Skipping (both exist),empty,empty
+20250821,235512,Row,262,Alienor Mandragore,https://www.bedetheque.com/serie-48793-BD-Alienor-Mandragore.html,Skipping (both exist),empty,empty
+20250821,235514,Row,263,Aliens,https://www.bedetheque.com/serie-1833-BD-Aliens-Dark-Horse-France.html,Skipping (both exist),empty,empty
+20250821,235517,Row,264,Aliens - Survival,https://www.bedetheque.com/serie-21454-BD-Aliens-Survival-1998.html,Skipping (both exist),empty,empty
+20250821,235519,Row,265,Aliens Vs Predator,https://www.bedetheque.com/serie-5043-BD-Aliens-versus-Predator.html,Skipping (both exist),empty,empty
+20250821,235522,Row,266,Alika,https://www.bedetheque.com/serie-16982-BD-Alika.html,Skipping (both exist),empty,empty
+20250821,235524,Row,267,Alim Le Tanneur,https://www.bedetheque.com/serie-9998-BD-Alim-le-tanneur.html,Skipping (both exist),empty,empty
+20250821,235527,Row,268,Aliot,https://www.bedetheque.com/serie-2651-BD-Aliot.html,Skipping (both exist),empty,empty
+20250821,235529,Row,269,Alise Et Les Argonautes,https://www.bedetheque.com/serie-2334-BD-Alise-et-les-Argonautes.html,Skipping (both exist),empty,empty
+20250821,235532,Row,270,Alisik,https://www.bedetheque.com/serie-40021-BD-Alisik.html,Skipping (both exist),empty,empty
+20250821,235534,Row,271,Alister Kayne Chasseur De Fantomes,https://www.bedetheque.com/serie-8931-BD-Alister-Kayne-Chasseur-de-Fantomes.html,Skipping (both exist),empty,empty
+20250821,235537,Row,272,Alive,https://www.bedetheque.com/serie-56175-BD-Alive-Luz.html,Skipping (both exist),empty,empty
+20250821,235539,Row,273,Alix,https://www.bedetheque.com/serie-186-BD-Alix.html,Skipping (both exist),empty,empty
+20250821,235541,Row,274,Alix Origines,https://www.bedetheque.com/serie-64775-BD-Alix-origines.html,Skipping (both exist),empty,empty
+20250821,235544,Row,275,Alix Raconte,https://www.bedetheque.com/serie-18570-BD-Alix-raconte.html,Skipping (both exist),empty,empty
+20250821,235547,Row,276,Alix Senator,https://www.bedetheque.com/serie-34992-BD-Alix-Senator.html,Skipping (both exist),empty,empty
+20250821,235549,Row,277,Allan Mac Bride,https://www.bedetheque.com/serie-10222-BD-Allan-Mac-Bride.html,Skipping (both exist),empty,empty
+20250821,235552,Row,278,Allan Quatermain Et Les Mines Du Roi Salomon,https://www.bedetheque.com/serie-25540-BD-Allan-Quatermain-et-les-mines-du-Roi-Salomon.html,Skipping (both exist),empty,empty
+20250821,235554,Row,279,Aller Simple,https://www.bedetheque.com/serie-12403-BD-Aller-Simple.html,Skipping (both exist),empty,empty
+20250821,235557,Row,280,Allez Coucher Sales Betes,https://www.bedetheque.com/serie-4524-BD-Allez-coucher-sales-betes.html,Skipping (both exist),empty,empty
+20250821,235559,Row,281,Almanach Du Journal De Mickey,https://www.bedetheque.com/serie-21261-BD-Almanach-du-Journal-de-Mickey.html,Skipping (both exist),empty,empty
+20250821,235602,Row,282,Alpha,https://www.bedetheque.com/serie-54-BD-Alpha-Renard-Mythic-Jigounov.html,Skipping (both exist),empty,empty
+20250821,235604,Row,283,Alpha Premieres Armes,https://www.bedetheque.com/serie-23763-BD-Alpha-Premieres-Armes.html,Skipping (both exist),empty,empty
+20250821,235607,Row,284,Alt-Life,https://www.bedetheque.com/serie-60440-BD-Alt-life.html,Skipping (both exist),empty,empty
+20250821,235609,Row,285,Altamont,https://www.bedetheque.com/serie-84830-BD-Altamont.html,Skipping (both exist),empty,empty
+20250821,235611,Row,286,Alter,https://www.bedetheque.com/serie-69587-BD-Alter-Pelaez-Laval-NG.html,Skipping (both exist),empty,empty
+20250821,235614,Row,287,Alter Ego,https://www.bedetheque.com/serie-26770-BD-Alter-ego.html,Skipping (both exist),empty,empty
+20250821,235616,Row,288,Alto Plano,https://www.bedetheque.com/serie-58860-BD-Alto-Plano.html,Skipping (both exist),empty,empty
+20250821,235619,Row,289,Altor,https://www.bedetheque.com/serie-84-BD-Altor.html,Skipping (both exist),empty,empty
+20250821,235621,Row,290,Alva,https://www.bedetheque.com/serie-85845-BD-Alva.html,Skipping (both exist),empty,empty
+20250821,235624,Row,291,Alvar Mayor,https://www.bedetheque.com/serie-8242-BD-Alvar-Mayor.html,Skipping (both exist),empty,empty
+20250821,235626,Row,292,Alvin Norge,https://www.bedetheque.com/serie-422-BD-Alvin-Norge.html,Skipping (both exist),empty,empty
+20250821,235629,Row,293,Alys Et Vicky,https://www.bedetheque.com/serie-5501-BD-Alys-Vicky.html,Skipping (both exist),empty,empty
+20250821,235631,Row,294,Alyson Ford,https://www.bedetheque.com/serie-70850-BD-Alyson-Ford.html,Skipping (both exist),empty,empty
+20250821,235633,Row,295,Alyssa,https://www.bedetheque.com/serie-41961-BD-Alyssa.html,Skipping (both exist),empty,empty
+20250821,235636,Row,296,Ama,https://www.bedetheque.com/serie-88461-BD-AMA.html,Skipping (both exist),empty,empty
+20250821,235639,Row,297,Amalia,https://www.bedetheque.com/serie-77691-BD-Amalia.html,Skipping (both exist),empty,empty
+20250821,235641,Row,298,Tequila,https://www.bedetheque.com/serie-18962-BD-Tequila.html,Skipping (both exist),empty,empty
+20250821,235644,Row,299,Amargo,https://www.bedetheque.com/serie-6825-BD-Amargo.html,Skipping (both exist),empty,empty
+20250821,235647,Row,300,Amazing Grace,https://www.bedetheque.com/serie-65832-BD-Amazing-Grace.html,Skipping (both exist),empty,empty
+20250821,235649,Row,301,Amazones Century,https://www.bedetheque.com/serie-94-BD-Amazones-Century.html,Skipping (both exist),empty,empty
+20250821,235652,Row,302,Amazonie,https://www.bedetheque.com/serie-53487-BD-Amazonie-Kenya-Saison-3.html,Skipping (both exist),empty,empty
+20250821,235654,Row,303,Amber Blake,https://www.bedetheque.com/serie-56673-BD-Amber-Blake.html,Skipping (both exist),empty,empty
+20250821,235657,Row,304,Ambre Blanc,https://www.bedetheque.com/serie-2772-BD-Ambre-Blanc.html,Skipping (both exist),empty,empty
+20250821,235659,Row,305,Amelia Woods,https://www.bedetheque.com/serie-76516-BD-Amelia-Woods.html,Skipping (both exist),empty,empty
+20250821,235702,Row,306,Amen,https://www.bedetheque.com/serie-72714-BD-Amen.html,Skipping (both exist),empty,empty
+20250821,235704,Row,307,Amenophis Iv,https://www.bedetheque.com/serie-457-BD-Amenophis-IV.html,Skipping (both exist),empty,empty
+20250821,235706,Row,308,Amere Patrie,https://www.bedetheque.com/serie-16412-BD-Amere-patrie.html,Skipping (both exist),empty,empty
+20250821,235709,Row,309,Amere Russie,https://www.bedetheque.com/serie-42853-BD-Amere-Russie.html,Skipping (both exist),empty,empty
+20250821,235711,Row,310,American Gods,https://www.bedetheque.com/serie-63178-BD-American-Gods.html,Skipping (both exist),empty,empty
+20250821,235714,Row,311,American Parano,https://www.bedetheque.com/serie-88105-BD-American-Parano.html,Skipping (both exist),empty,empty
+20250821,235716,Row,312,American Tragedy,https://www.bedetheque.com/serie-33117-BD-American-Tragedy.html,Skipping (both exist),empty,empty
+20250821,235718,Row,313,American Vampire,https://www.bedetheque.com/serie-27143-BD-American-Vampire.html,Skipping (both exist),empty,empty
+20250821,235721,Row,314,Amerika,https://www.bedetheque.com/serie-10033-BD-Amerika.html,Skipping (both exist),empty,empty
+20250821,235723,Row,315,Amerikkka,https://www.bedetheque.com/serie-2020-BD-Amerikkka.html,Skipping (both exist),empty,empty
+20250821,235726,Row,316,Ames-Liges,https://www.bedetheque.com/serie-62412-BD-Ames-Liges.html,Skipping (both exist),empty,empty
+20250821,235728,Row,317,Amiante,https://www.bedetheque.com/serie-1169-BD-Amiante.html,Skipping (both exist),empty,empty
+20250821,235730,Row,318,Amicalement Votre,https://www.bedetheque.com/serie-43511-BD-Amicalement-Votre.html,Skipping (both exist),empty,empty
+20250821,235733,Row,319,Amitie Etroite,https://www.bedetheque.com/serie-21631-BD-Amitie-etroite.html,Skipping (both exist),empty,empty
+20250821,235736,Row,320,Amor Amor,https://www.bedetheque.com/serie-3232-BD-Amor-amor.html,Skipping (both exist),empty,empty
+20250821,235738,Row,321,Amorostasia,https://www.bedetheque.com/serie-39432-BD-Amorostasia.html,Skipping (both exist),empty,empty
+20250821,235741,Row,322,Amour A Mort,https://www.bedetheque.com/serie-36525-BD-Amour-a-mort.html,Skipping (both exist),empty,empty
+20250821,235744,Row,323,Amour Minuscule,https://www.bedetheque.com/serie-62362-BD-Amour-minuscule.html,Skipping (both exist),empty,empty
+20250821,235746,Row,324,Amour Toujours,https://www.bedetheque.com/serie-3233-BD-Amour-toujours.html,Skipping (both exist),empty,empty
+20250821,235749,Row,325,Amours Fragiles,https://www.bedetheque.com/serie-1140-BD-Amours-fragiles.html,Skipping (both exist),empty,empty
+20250821,235751,Row,326,Amours Liquides,https://www.bedetheque.com/serie-75136-BD-Amours-liquides.html,Skipping (both exist),empty,empty
+20250821,235753,Row,327,Amuse Gueules,https://www.bedetheque.com/serie-43838-BD-Amuse-gueules.html,Skipping (both exist),empty,empty
+20250821,235756,Row,328,Ana Ana,https://www.bedetheque.com/serie-35518-BD-Ana-Ana.html,Skipping (both exist),empty,empty
+20250821,235759,Row,329,Anachron,https://www.bedetheque.com/serie-542-BD-Anachron.html,Skipping (both exist),empty,empty
+20250821,235801,Row,330,Anahire,https://www.bedetheque.com/serie-251-BD-Anahire.html,Skipping (both exist),empty,empty
+20250821,235804,Row,331,Anais Nin,https://www.bedetheque.com/serie-70848-BD-Anais-Nin.html,Skipping (both exist),empty,empty
+20250821,235807,Row,332,Anamnese,https://www.bdtheque.com/series/24035/anamnese,Skipping (both exist),empty,empty
+20250821,235810,Row,333,Anatole Latuile,https://www.bedetheque.com/serie-25545-BD-Anatole-Latuile.html,Skipping (both exist),empty,empty
+20250821,235812,Row,334,Anatole(s),https://www.bedetheque.com/serie-72208-BD-Anatoles.html,Skipping (both exist),empty,empty
+2025-08-21 23:58:15,905 - INFO - Waiting 60 seconds after search...
+20250821,235915,Row,335,Anatoles,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Anatoles,empty
+20250821,235917,Row,336,Andersen - Les Ombres D'un Conteur,https://www.bedetheque.com/serie-53016-BD-Andersen-Les-ombres-d-un-conteur.html,Skipping (both exist),empty,empty
+20250821,235920,Row,337,Androides,https://www.bedetheque.com/serie-52375-BD-Androides-Soleil.html,Skipping (both exist),empty,empty
+20250821,235922,Row,338,Andy Et Gina,https://www.bedetheque.com/galerie-3535-BD-Andy-Gina.html?_ga=2.26599485.1646692877.1586880306-527322056.1566043465,Skipping (both exist),empty,empty
+20250821,235924,Row,339,Anent - Nouvelles Des Indiens Jivaros,https://www.bedetheque.com/serie-50949-BD-Anent-Nouvelles-des-indiens-Jivaros.html,Skipping (both exist),empty,empty
+20250821,235926,Row,340,Ange Et Demon,https://www.bedetheque.com/serie-59012-BD-Ange-et-Demon.html,Skipping (both exist),empty,empty
+20250821,235928,Row,341,Ange Et Diablesses,https://www.bedetheque.com/serie-20694-BD-Ange-Diablesses.html,Skipping (both exist),empty,empty
+20250821,235930,Row,342,Ange Leca,https://www.bedetheque.com/serie-82948-BD-Ange-Leca.html,Skipping (both exist),empty,empty
+20250821,235933,Row,343,Ange Signe,https://www.bedetheque.com/serie-10133-BD-Ange-Signe.html,Skipping (both exist),empty,empty
+20250821,235935,Row,344,Ange-Marie,https://www.bedetheque.com/serie-11533-BD-Ange-Marie.html,Skipping (both exist),empty,empty
+20250821,235937,Row,345,Angel,https://www.bedetheque.com/serie-70913-BD-Angel-Montalbano.html,Skipping (both exist),empty,empty
+20250821,235939,Row,346,Angel Wings,https://www.bedetheque.com/serie-44361-BD-Angel-Wings.html,Skipping (both exist),empty,empty
+20250821,235942,Row,347,Angela,https://www.bedetheque.com/serie-13434-BD-Angela.html,Skipping (both exist),empty,empty
+20250821,235944,Row,348,Angele Et Rene,https://www.bedetheque.com/galerie-2570-BD-Angele-Rene.html?_ga=2.23489082.1088435226.1631097712-725128486.1598816054,Skipping (both exist),empty,empty
+20250821,235946,Row,349,Angeline,https://www.bedetheque.com/serie-10146-BD-Angeline.html,Skipping (both exist),empty,empty
+20250821,235948,Row,350,Angelot Du Lac,https://www.bedetheque.com/serie-7796-BD-Angelot-du-Lac.html,Skipping (both exist),empty,empty
+20250821,235951,Row,351,Angers,https://www.bedetheque.com/serie-71915-BD-Angers.html,Skipping (both exist),empty,empty
+20250821,235953,Row,352,Anges,https://www.bedetheque.com/serie-1760-BD-Anges.html,Skipping (both exist),empty,empty
+20250821,235955,Row,353,Angie - Infirmiere De Nuit,https://www.bedetheque.com/BD-Angie-Chris-Tome-1-Infirmiere-de-nuit-1-23836.html,Skipping (both exist),empty,empty
+20250821,235958,Row,354,Angola Janga,https://www.bedetheque.com/serie-60941-BD-Angola-Janga.html,Skipping (both exist),empty,empty
+20250822,000000,Row,355,Angor,https://www.bedetheque.com/serie-17542-BD-Angor.html,Skipping (both exist),empty,empty
+20250822,000003,Row,356,Angry Bird,https://www.bedetheque.com/serie-41165-BD-Angry-Birds.html,Skipping (both exist),empty,empty
+20250822,000005,Row,357,Angus Powderhill,https://www.bedetheque.com/serie-648-BD-Angus-Powderhill.html,Skipping (both exist),empty,empty
+20250822,000007,Row,358,Anibal 5,https://www.bedetheque.com/serie-2132-BD-Anibal-Cinq.html,Skipping (both exist),empty,empty
+20250822,000010,Row,359,Anibal Cinq,https://www.bedetheque.com/serie-2132-BD-Anibal-Cinq.html,Skipping (both exist),empty,empty
+20250822,000012,Row,360,Animabilis,https://www.bedetheque.com/serie-62972-BD-Animabilis.html,Skipping (both exist),empty,empty
+20250822,000014,Row,361,Animal Jack,https://www.bedetheque.com/serie-64777-BD-Animal-Jack.html,Skipping (both exist),empty,empty
+20250822,000017,Row,362,Animal Lecteur,https://www.bedetheque.com/serie-23934-BD-Animal-lecteur.html,Skipping (both exist),empty,empty
+20250822,000019,Row,363,Animal'z,https://www.bedetheque.com/serie-20115-BD-Animal-z.html,Skipping (both exist),empty,empty
+20250822,000021,Row,364,Animorphs,https://www.bedetheque.com/serie-77206-BD-Animorphs.html,Skipping (both exist),empty,empty
+20250822,000026,Row,365,Anita,https://www.bedetheque.com/serie-7645-BD-Anita-Crepax.html,Skipping (both exist),empty,empty
+20250822,000029,Row,366,Anita Bomba,https://www.bedetheque.com/serie-206-BD-Anita-Bomba.html,Skipping (both exist),empty,empty
+20250822,000033,Row,367,Anita Conti,https://www.bedetheque.com/serie-90493-BD-Anita-Conti.html,Skipping (both exist),empty,empty
+20250822,000036,Row,368,Ann De La Jungle,https://www.bedetheque.com/serie-1692-BD-Ann-de-la-jungle.html,Skipping (both exist),empty,empty
+20250822,000039,Row,369,Anna,https://www.bedetheque.com/serie-31713-BD-Anna-Edilau.html,Skipping (both exist),empty,empty
+20250822,000041,Row,370,Anna Stein,https://www.bedetheque.com/serie-2192-BD-Anna-Stein.html,Skipping (both exist),empty,empty
+20250822,000044,Row,371,Anne Bonny,https://www.bedetheque.com/serie-84084-BD-Anne-Bonny.html,Skipping (both exist),empty,empty
+20250822,000047,Row,372,Anne et Peter,https://www.bedetheque.com/serie-3220-BD-Anne-et-Peter.html,Skipping (both exist),empty,empty
+20250822,000049,Row,373,Annick Tamair,https://www.bedetheque.com/serie-72519-BD-Annick-Tamaire.html,Skipping (both exist),empty,empty
+20250822,000052,Row,374,Annick Tamaire,https://www.bedetheque.com/serie-72519-BD-Annick-Tamaire.html,Skipping (both exist),empty,empty
+20250822,000054,Row,375,Anorexie,https://www.bedetheque.com/serie-76936-BD-Anorexie.html,Skipping (both exist),empty,empty
+20250822,000057,Row,376,Antarctica,https://www.bedetheque.com/serie-42298-BD-Antarctica.html,Skipping (both exist),empty,empty
+20250822,000059,Row,377,Antares,https://www.bedetheque.com/serie-36385-BD-Antares-en-anglais.html,Skipping (both exist),empty,empty
+20250822,000102,Row,378,Anti Kamasutra A L'Usage Des Gens Normaux,https://www.bedetheque.com/BD-AUT-De-Pins-Anti-kamasutra-a-l-usage-des-gens-normaux-83229.html,Skipping (both exist),empty,empty
+20250822,000104,Row,379,Antigone,https://www.bedetheque.com/serie-58603-BD-Antigone-Baiguera-Bruneau.html,Skipping (both exist),empty,empty
+20250822,000107,Row,380,Antipodes,https://www.bedetheque.com/serie-90352-BD-Antipodes.html,Skipping (both exist),empty,empty
+20250822,000109,Row,381,Antoine Sevres,https://www.bedetheque.com/serie-12100-BD-Antoine-Sevres.html,Skipping (both exist),empty,empty
+20250822,000111,Row,382,Aphrodite,https://www.bedetheque.com/serie-78711-BD-Aphrodite-Bruneau-Baiguera.html,Skipping (both exist),empty,empty
+20250822,000114,Row,383,Aphrodite IX,https://www.bedetheque.com/serie-6104-BD-Aphrodite-IX.html,Skipping (both exist),empty,empty
+20250822,000116,Row,384,Apili - Apprendre A Lire Grace A L'Humour,https://apili.fr/,Skipping (both exist),empty,empty
+20250822,000119,Row,385,Apocalypse Mania,https://www.bedetheque.com/serie-523-BD-Apocalypse-Mania.html,Skipping (both exist),empty,empty
+20250822,000121,Row,386,Apocalypse Sur Carson City,https://www.bedetheque.com/serie-23380-BD-Apocalypse-sur-Carson-City.html,Skipping (both exist),empty,empty
+20250822,000124,Row,387,Apollo 11 - Comment On A Marche Sur La Lune,https://www.bedetheque.com/serie-81164-BD-Apollo-11-Comment-on-a-marche-sur-la-Lune.html#:~:text=Le%2016%20juillet%201969%2C%20l,accomplissement%20d'une%20telle%20prouesse.,Skipping (both exist),empty,empty
+20250822,000126,Row,388,Apollo 11 - Premiers Pas Sur La Lune,https://www.bedetheque.com/serie-81992-BD-Apollo-11-Premiers-pas-sur-la-Lune.html,Skipping (both exist),empty,empty
+20250822,000129,Row,389,Apollo Xi - Comment On A Marche Sur La Lune,https://www.bedetheque.com/serie-81164-BD-Apollo-11-Comment-on-a-marche-sur-la-Lune.html,Skipping (both exist),empty,empty
+20250822,000131,Row,390,Apollon,https://www.bedetheque.com/serie-77326-BD-Apollon.html,Skipping (both exist),empty,empty
+20250822,000133,Row,391,Apparition Dans Le Ciel De Berlin Est,https://www.bedetheque.com/serie-84626-BD-Apparition-dans-le-ciel-de-Berlin-Est.html,Skipping (both exist),empty,empty
+20250822,000136,Row,392,Appeles D'Algerie,https://www.bedetheque.com/serie-78514-BD-Appeles-d-Algerie.html,Skipping (both exist),empty,empty
+20250822,000138,Row,393,Apprendre La Guitare Par La BD,https://www.bedetheque.com/serie-34932-BD-Guitare-en-bande-dessinee.html,Skipping (both exist),empty,empty
+20250822,000140,Row,394,Apres Guerre,https://www.bedetheque.com/serie-37689-BD-Apres-Guerre.html,Skipping (both exist),empty,empty
+20250822,000143,Row,395,Apres L'Enfer,https://www.bedetheque.com/serie-65957-BD-Apres-l-Enfer.html,Skipping (both exist),empty,empty
+20250822,000145,Row,396,Apres L'Orage,https://www.bedetheque.com/serie-93991-BD-Apres-l-orage.html,Skipping (both exist),empty,empty
+20250822,000148,Row,397,Apres La Nuit,https://www.bedetheque.com/serie-17702-BD-Apres-la-nuit.html,Skipping (both exist),empty,empty
+20250822,000150,Row,398,Apres La Rafle,https://www.bedetheque.com/serie-77778-BD-Apres-la-rafle.html,Skipping (both exist),empty,empty
+20250822,000153,Row,399,Apres Le Monde,https://www.bedetheque.com/serie-70668-BD-Apres-Le-Monde.html,Skipping (both exist),empty,empty
+20250822,000155,Row,400,Apres Le Printemps,https://www.bedetheque.com/serie-61936-BD-Apres-le-printemps.html,Skipping (both exist),empty,empty
+20250822,000158,Row,401,Apres-Guerre,https://www.bedetheque.com/serie-37689-BD-Apres-Guerre.html,Skipping (both exist),empty,empty
+20250822,000200,Row,402,Aquablue,https://www.bedetheque.com/serie-48-BD-Aquablue.html,Skipping (both exist),empty,empty
+20250822,000202,Row,403,Aquarica,https://www.bedetheque.com/serie-57993-BD-Aquarica.html,Skipping (both exist),empty,empty
+20250822,000205,Row,404,Aquilon,https://www.bedetheque.com/serie-1170-BD-Aquilon.html,Skipping (both exist),empty,empty
+20250822,000207,Row,405,Ar-Men - L'Enfer Des Enfers,https://www.bedetheque.com/serie-58153-BD-Ar-Men-l-Enfer-des-enfers.html,Skipping (both exist),empty,empty
+20250822,000210,Row,406,Ara,https://www.bedetheque.com/serie-29425-BD-Ara.html,Skipping (both exist),empty,empty
+20250822,000212,Row,407,Arabelle,https://www.bedetheque.com/serie-731-BD-Arabelle-Denoel-Glenat.html,Skipping (both exist),empty,empty
+20250822,000214,Row,408,Arale,https://www.bedetheque.com/serie-61069-BD-Arale.html,Skipping (both exist),empty,empty
+20250822,000217,Row,409,Arawn,https://www.bedetheque.com/serie-17063-BD-Arawn.html,Skipping (both exist),empty,empty
+20250822,000219,Row,410,Arawn Et Chroniques,https://www.bedetheque.com/serie-35352-BD-Chroniques-d-Arawn.html,Skipping (both exist),empty,empty
+20250822,000222,Row,411,Arca,https://www.bedetheque.com/serie-82728-BD-Arca.html,Skipping (both exist),empty,empty
+20250822,000224,Row,412,Arca Ou La Nouvelle Eden,https://www.bedetheque.com/serie-88104-BD-Arca-ou-la-nouvelle-Eden.html,Skipping (both exist),empty,empty
+20250822,000226,Row,413,Arcadium,https://www.bedetheque.com/serie-86600-BD-Arcadium.html,Skipping (both exist),empty,empty
+20250822,000229,Row,414,Arcane Majeur,https://www.bedetheque.com/serie-5709-BD-Arcane-majeur.html,Skipping (both exist),empty,empty
+20250822,000231,Row,415,Arcanes,https://www.bedetheque.com/serie-259-BD-Arcanes.html,Skipping (both exist),empty,empty
+20250822,000234,Row,416,Archer et Armstrong,https://www.bedetheque.com/serie-40963-BD-Archer-Armstrong.html,Skipping (both exist),empty,empty
+20250822,000236,Row,417,Archetype,https://www.bedetheque.com/serie-34021-BD-Archetype.html,Skipping (both exist),empty,empty
+20250822,000239,Row,418,Archibald,https://www.bedetheque.com/serie-49019-BD-Archibald-Kim.html,Skipping (both exist),empty,empty
+20250822,000241,Row,419,Archie,https://www.bedetheque.com/serie-51836-BD-Archie-2015.html,Skipping (both exist),empty,empty
+20250822,000244,Row,420,Archie Cash,https://www.bedetheque.com/serie-733-BD-Archie-Cash.html,Skipping (both exist),empty,empty
+20250822,000246,Row,421,Archipel,https://www.bedetheque.com/serie-7183-BD-Archipel.html,Skipping (both exist),empty,empty
+20250822,000249,Row,422,Arctica,https://www.bedetheque.com/serie-16729-BD-Arctica.html,Skipping (both exist),empty,empty
+20250822,000251,Row,423,Ardeur,https://www.bedetheque.com/serie-4335-BD-Ardeur.html,Skipping (both exist),empty,empty
+20250822,000254,Row,424,Ardoukoba,https://www.bedetheque.com/serie-3329-BD-Ardoukoba.html,Skipping (both exist),empty,empty
+20250822,000256,Row,425,Area D - Le Territoire Des Mutants,https://www.bedetheque.com/serie-43579-BD-Area-D-Le-Territoire-des-mutants.html,Skipping (both exist),empty,empty
+20250822,000258,Row,426,Arelate,https://www.bedetheque.com/serie-21641-BD-Arelate.html,Skipping (both exist),empty,empty
+20250822,000301,Row,427,Arene Des Balkans,https://www.bedetheque.com/serie-48578-BD-Arene-des-Balkans.html,Skipping (both exist),empty,empty
+20250822,000303,Row,428,Ares The Vagrant Soldier,https://www.bedetheque.com/serie-32318-BD-Ares-The-Vagrant-Soldier.html,Skipping (both exist),empty,empty
+20250822,000305,Row,429,Aria,https://www.bedetheque.com/serie-688-BD-Aria.html,Skipping (both exist),empty,empty
+20250822,000308,Row,430,Ariane Et Nicolas,https://www.bedetheque.com/serie-24049-BD-Ariane-et-Nicolas.html,Skipping (both exist),empty,empty
+20250822,000310,Row,431,Ariol,https://www.bedetheque.com/serie-4100-BD-Ariol-1re-serie.html,Skipping (both exist),empty,empty
+20250822,000313,Row,432,Aristophania,https://www.bedetheque.com/serie-63618-BD-Aristophania.html,Skipping (both exist),empty,empty
+20250822,000316,Row,433,Aristote Et Ses Potes,https://www.bedetheque.com/serie-2620-BD-Aristote-et-ses-Potes.html,Skipping (both exist),empty,empty
+20250822,000318,Row,434,Arkel,https://www.bedetheque.com/serie-1273-BD-Arkel.html,Skipping (both exist),empty,empty
+20250822,000321,Row,435,Arkeod,https://www.bedetheque.com/serie-537-BD-Arkeod.html,Skipping (both exist),empty,empty
+20250822,000324,Row,436,Arkhe,https://www.bedetheque.com/serie-4041-BD-Arkhe.html,Skipping (both exist),empty,empty
+20250822,000326,Row,437,Arlequin,https://www.bedetheque.com/serie-215-BD-Arlequin.html,Skipping (both exist),empty,empty
+20250822,000329,Row,438,Armalite 16,https://www.bedetheque.com/serie-3240-BD-Armalite-16.html,Skipping (both exist),empty,empty
+20250822,000331,Row,439,Armandis,https://www.bedetheque.com/serie-8004-BD-Armandis.html,Skipping (both exist),empty,empty
+20250822,000334,Row,440,Armelle Et Mirko,https://www.bedetheque.com/serie-83273-BD-Armelle-et-Mirko.html,Skipping (both exist),empty,empty
+20250822,000337,Row,441,Arn,https://www.bedetheque.com/serie-444-BD-Arn.html,Skipping (both exist),empty,empty
+20250822,000339,Row,442,Arno,https://www.bedetheque.com/serie-1606-BD-Arno.html,Skipping (both exist),empty,empty
+20250822,000342,Row,443,Arq,https://www.bedetheque.com/serie-1824-BD-Arq.html,Skipping (both exist),empty,empty
+20250822,000345,Row,444,Arret De Jeu,https://www.bedetheque.com/serie-61595-BD-Arret-de-Jeu.html,Skipping (both exist),empty,empty
+20250822,000347,Row,445,Arrete D'Oublier De Te Souvenir,https://www.bedetheque.com/serie-23432-BD-Arrete-d-oublier-de-te-souvenir.html,Skipping (both exist),empty,empty
+20250822,000350,Row,446,Arriere-Pays,https://www.bedetheque.com/serie-1704-BD-Arriere-pays.html,Skipping (both exist),empty,empty
+20250822,000353,Row,447,Arrowsmith - Unite D'Elite Aerienne,https://www.bedetheque.com/serie-9696-BD-Arrowsmith-Unite-d-elite-aerienne.html,Skipping (both exist),empty,empty
+20250822,000355,Row,448,Ars Magna,https://www.bedetheque.com/serie-32197-BD-Ars-Magna.html,Skipping (both exist),empty,empty
+20250822,000358,Row,449,Arsenal,https://www.bedetheque.com/serie-67934-BD-Arsenal.html,Skipping (both exist),empty,empty
+20250822,000400,Row,450,Arsene Lupin,https://www.bedetheque.com/serie-79478-BD-Arsene-Lupin-Gentleman-cambrioleur-Morita.html,Skipping (both exist),empty,empty
+20250822,000403,Row,451,Arsene Lupin,https://www.bedetheque.com/serie-84889-BD-Arsene-Lupin-Eho-Minerbe.html,Skipping (both exist),empty,empty
+20250822,000406,Row,452,Arsene Lupin,https://www.bedetheque.com/serie-79856-BD-Arsene-Lupin-Felix.html,Skipping (both exist),empty,empty
+20250822,000408,Row,453,Arsene Lupin,https://www.bedetheque.com/serie-4968-BD-Arsene-Lupin-Duchateau-Soleil.html,Skipping (both exist),empty,empty
+20250822,000411,Row,454,Arsene Lupin,https://www.bedetheque.com/albums-79856-BD-Arsene-Lupin-Felix.html,Skipping (both exist),empty,empty
+20250822,000413,Row,455,Arsene Lupin Contre Sherlock Holmes,https://www.bedetheque.com/serie-79856-BD-Arsene-Lupin-Felix.html,Skipping (both exist),empty,empty
+2025-08-22 00:04:16,706 - INFO - Waiting 60 seconds after search...
+20250822,000516,Row,456,Arsene Lupin Et Le Dernier Secret De Nostradamus,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Arsene%20Lupin%20Et%20Le%20Dernier%20Secret%20De%20Nostradamus,empty
+20250822,000519,Row,457,Arsene Lupin Les Origines,https://www.bedetheque.com/serie-44763-BD-Arsene-Lupin-Les-origines.html,Skipping (both exist),empty,empty
+2025-08-22 00:05:21,799 - INFO - Waiting 60 seconds after search...
+20250822,000621,Row,458,Artemisia,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Artemisia,empty
+20250822,000623,Row,459,Arthur - Une Epopee Celtique,https://www.bedetheque.com/serie-345-BD-Arthur-Une-epopee-celtique.html,Skipping (both exist),empty,empty
+20250822,000626,Row,460,Arthur Le Fan Justicier,https://www.bedetheque.com/serie-6468-BD-Arthur-le-fantome-justicier-Cezard-divers-editeurs.html,Skipping (both exist),empty,empty
+20250822,000628,Row,461,Arthur Le Fantome Justier,https://www.bedetheque.com/serie-6468-BD-Arthur-le-fantome-justicier-Cezard-divers-editeurs.html,Skipping (both exist),empty,empty
+20250822,000630,Row,462,Arthur Minus,https://www.bedetheque.com/serie-4062-BD-Arthur-Minus.html,Skipping (both exist),empty,empty
+20250822,000633,Row,463,Arthus Trivium,https://www.bedetheque.com/serie-50418-BD-Arthus-Trivium.html,Skipping (both exist),empty,empty
+20250822,000635,Row,464,Arvandor,https://www.bedetheque.com/serie-2458-BD-Arvandor.html,Skipping (both exist),empty,empty
+20250822,000637,Row,465,Ary,https://www.bedetheque.com/serie-62615-BD-Ary.html,Skipping (both exist),empty,empty
+20250822,000639,Row,466,Aryanne,https://www.bedetheque.com/serie-2734-BD-Aryanne.html,Skipping (both exist),empty,empty
+20250822,000642,Row,467,Ascencion,https://www.bedetheque.com/serie-735-BD-Ascension-Seraphine.html,Skipping (both exist),empty,empty
+20250822,000644,Row,468,Ascender,https://www.bedetheque.com/serie-68337-BD-Ascender.html,Skipping (both exist),empty,empty
+20250822,000646,Row,469,Ascension,https://www.bedetheque.com/serie-12812-BD-Ascensions.html,Skipping (both exist),empty,empty
+20250822,000649,Row,470,Asgard,https://www.bedetheque.com/serie-31625-BD-Asgard.html,Skipping (both exist),empty,empty
+20250822,000651,Row,471,Ash,https://www.bedetheque.com/serie-24990-BD-Ash-Krystel.html,Skipping (both exist),empty,empty
+20250822,000653,Row,472,Ashrel,https://www.bedetheque.com/serie-20432-BD-Ashrel.html,Skipping (both exist),empty,empty
+20250822,000656,Row,473,Asile,https://www.bedetheque.com/serie-83046-BD-Asile.html,Skipping (both exist),empty,empty
+20250822,000658,Row,474,Aslak,https://www.bedetheque.com/serie-27075-BD-Aslak.html,Skipping (both exist),empty,empty
+20250822,000701,Row,475,Aspen,https://www.bedetheque.com/serie-11365-BD-Aspen-Comics.html,Skipping (both exist),empty,empty
+20250822,000704,Row,476,Asphalt Blues,https://www.bedetheque.com/serie-76451-BD-Asphalt-Blues.html,Skipping (both exist),empty,empty
+20250822,000706,Row,477,Asphodele,https://www.bedetheque.com/serie-5932-BD-Asphodele.html,Skipping (both exist),empty,empty
+20250822,000709,Row,478,Aspic,https://www.bedetheque.com/serie-23980-BD-Aspic-detectives-de-l-etrange.html,Skipping (both exist),empty,empty
+20250822,000711,Row,479,Aspic Detectives De L'Etrange,https://www.bedetheque.com/serie-23980-BD-Aspic-detectives-de-l-etrange.html,Skipping (both exist),empty,empty
+20250822,000714,Row,480,Aspic Voisine,https://www.bedetheque.com/serie-20760-BD-Aspic-Voisine.html,Skipping (both exist),empty,empty
+20250822,000716,Row,481,Aspirine,https://www.bedetheque.com/serie-61390-BD-Aspirine.html,Skipping (both exist),empty,empty
+20250822,000718,Row,482,Assasin'S Creed Awakening,https://www.bedetheque.com/serie-43585-BD-Assassin-s-Creed-Awakening.html,Skipping (both exist),empty,empty
+20250822,000721,Row,483,Assassin,https://www.bedetheque.com/serie-26830-BD-Assassin.html,Skipping (both exist),empty,empty
+20250822,000723,Row,484,Assassin'S Creed,https://www.bedetheque.com/serie-22254-BD-Assassin-s-Creed.html,Skipping (both exist),empty,empty
+20250822,000725,Row,485,Assassin'S Creed - Blade Of Shao Jun,https://www.bedetheque.com/serie-70437-BD-Assassin-s-Creed-Blade-of-Shao-Jun.html,Skipping (both exist),empty,empty
+20250822,000728,Row,486,Assassin’S Creed - Bloodstone,https://www.bedetheque.com/serie-65347-BD-Assassin-s-Creed-Bloodstone.html,Skipping (both exist),empty,empty
+20250822,000730,Row,487,Assassin'S Creed - Conspirations,https://www.bedetheque.com/serie-54152-BD-Assassin-s-Creed-Conspirations.html,Skipping (both exist),empty,empty
+20250822,000733,Row,488,Assassin'S Creed - Dynasty,https://www.bedetheque.com/serie-74849-BD-Assassin-s-Creed-Dynasty.html,Skipping (both exist),empty,empty
+20250822,000735,Row,489,Assassin's Creed - Locus,https://www.bedetheque.com/serie-22254-BD-Assassin-s-Creed.html,Skipping (both exist),empty,empty
+20250822,000737,Row,490,Assassin's Creed - Reflections,https://www.bedetheque.com/serie-22254-BD-Assassin-s-Creed.html,Skipping (both exist),empty,empty
+20250822,000740,Row,491,Assassin's Creed - Templar,https://www.bedetheque.com/serie-22254-BD-Assassin-s-Creed.html,Skipping (both exist),empty,empty
+20250822,000742,Row,492,Assassin's Creed - The Ankh of Isis Trilogy,https://www.bedetheque.com/serie-22254-BD-Assassin-s-Creed.html,Skipping (both exist),empty,empty
+20250822,000744,Row,493,Assassin's Creed - Uprising,https://www.bedetheque.com/serie-22254-BD-Assassin-s-Creed.html,Skipping (both exist),empty,empty
+20250822,000747,Row,494,Assassin'S Creed - Valhalla,https://www.bedetheque.com/serie-82713-BD-Assassin-s-Creed-Valhalla.html,Skipping (both exist),empty,empty
+20250822,000749,Row,495,Assassins - Les Psychopathes Celebres,https://www.bedetheque.com/serie-66850-BD-Assassins-les-psychopathes-celebres.html,Skipping (both exist),empty,empty
+20250822,000752,Row,496,Asterios Le Minotaure,https://www.bedetheque.com/serie-80266-BD-Asterios-le-Minotaure.html,Skipping (both exist),empty,empty
+20250822,000754,Row,497,Asterix,https://www.bedetheque.com/serie-59-BD-Asterix.html,Skipping (both exist),empty,empty
+20250822,000757,Row,498,Asteroide Hurlant,https://www.bedetheque.com/serie-14616-BD-Asteroide-hurlant.html,Skipping (both exist),empty,empty
+20250822,000759,Row,499,Astra Saga,https://www.bedetheque.com/serie-76450-BD-Astra-Saga.html,Skipping (both exist),empty,empty
+20250822,000801,Row,500,Astrid Bromure,https://www.bedetheque.com/serie-47037-BD-Astrid-Bromure.html,Skipping (both exist),empty,empty
+20250822,000804,Row,501,Atalante,https://www.bedetheque.com/serie-41939-BD-Atalante-L-Odyssee.html,Skipping (both exist),empty,empty
+20250822,000806,Row,502,Atalante La Legende,https://www.bedetheque.com/serie-458-BD-Atalante-La-Legende.html,Skipping (both exist),empty,empty
+20250822,000809,Row,503,Atan Des Cyclades,https://www.bedetheque.com/serie-81331-BD-Atan-des-Cyclades.html,Skipping (both exist),empty,empty
+20250822,000811,Row,504,Atar Gull Ou Le Destin D'Un Esclave Modele,https://www.bedetheque.com/serie-29776-BD-Atar-Gull-ou-le-destin-d-un-esclave-modele.html,Skipping (both exist),empty,empty
+20250822,000814,Row,505,Atemi,https://www.bedetheque.com/serie-13292-BD-Atemi.html,Skipping (both exist),empty,empty
+20250822,000817,Row,506,Athanagor Wurlitzer Obsede Sexuel,https://www.bedetheque.com/serie-2283-BD-Athanagor-Wurlitzer-obsede-sexuel.html,Skipping (both exist),empty,empty
+20250822,000819,Row,507,Athena,https://www.bedetheque.com/serie-73815-BD-Athena.html,Skipping (both exist),empty,empty
+20250822,000822,Row,508,Atlantic City,https://www.bedetheque.com/serie-4868-BD-Atlantic-city.html,Skipping (both exist),empty,empty
+20250822,000824,Row,509,Atlantide Experiment,https://www.bedetheque.com/serie-18546-BD-Atlantide-experiment.html,Skipping (both exist),empty,empty
+20250822,000827,Row,510,Atlantis,https://www.bedetheque.com/serie-1883-BD-Atlantis.html,Skipping (both exist),empty,empty
+20250822,000830,Row,511,Atom Agency,https://www.bedetheque.com/serie-61655-BD-Atom-Agency.html,Skipping (both exist),empty,empty
+20250822,000832,Row,512,Atome Kid,https://www.bedetheque.com/serie-13610-BD-Atome-Kid-Cosmos.html,Skipping (both exist),empty,empty
+20250822,000835,Row,513,Atomos,https://www.bedetheque.com/serie-10319-BD-Atomos.html,Skipping (both exist),empty,empty
+20250822,000837,Row,514,Atsemtex,https://www.bedetheque.com/serie-77282-BD-Atsemtex.html,Skipping (both exist),empty,empty
+20250822,000840,Row,515,Attila,https://www.bedetheque.com/serie-43515-BD-Attila.html,Skipping (both exist),empty,empty
+20250822,000843,Row,516,Attoneen,https://www.bedetheque.com/serie-44406-BD-Attoneen.html,Skipping (both exist),empty,empty
+20250822,000845,Row,517,Attraction,https://www.bedetheque.com/serie-86112-BD-Attraction.html,Skipping (both exist),empty,empty
+20250822,000848,Row,518,Atypiques,https://www.bedetheque.com/serie-15981-BD-Insolite.html,Skipping (both exist),empty,empty
+20250822,000851,Row,519,Au bonheur Des dames,https://www.bedetheque.com/serie-69769-BD-Au-Bonheur-des-Dames.html,Skipping (both exist),empty,empty
+20250822,000853,Row,520,Au Bord Du Monde,https://www.bedetheque.com/serie-6391-BD-Au-bord-du-monde.html,Skipping (both exist),empty,empty
+20250822,000856,Row,521,Au Bout Du Fleuve,https://www.bedetheque.com/serie-54516-BD-Au-bout-du-fleuve.html,Skipping (both exist),empty,empty
+20250822,000859,Row,522,Au Centre Du Nowhere,https://www.bedetheque.com/serie-12385-BD-Au-centre-du-Nowhere.html,Skipping (both exist),empty,empty
+20250822,000901,Row,523,Au Coeur De Fukushima,https://www.bedetheque.com/serie-51572-BD-Au-coeur-de-Fukushima.html,Skipping (both exist),empty,empty
+20250822,000904,Row,524,Au Coeur De La Tempete,https://www.bedetheque.com/serie-20761-BD-Au-coeur-de-la-tempete.html,Skipping (both exist),empty,empty
+20250822,000907,Row,525,Au Coeur De La Terre,https://www.bedetheque.com/serie-87061-BD-Au-coeur-de-la-terre.html,Skipping (both exist),empty,empty
+20250822,000909,Row,526,Au Coeur De La Vague,https://www.bedetheque.com/serie-71738-BD-Au-coeur-de-la-vague.html,Skipping (both exist),empty,empty
+2025-08-22 00:09:13,005 - INFO - Waiting 60 seconds after search...
+20250822,001013,Row,527,Au Coeur Du Desert,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Au%20Coeur%20Du%20Desert,empty
+20250822,001015,Row,528,Au Crepuscule De La Beat Generation,https://www.bedetheque.com/serie-83512-BD-Au-crepuscule-de-la-Beat-generation-Le-dernier-clochard-celeste.html,Skipping (both exist),empty,empty
+20250822,001017,Row,529,Au Crepuscule De La Beat Generation - Le Dernier Clochard Celeste,https://www.bedetheque.com/serie-83512-BD-Au-crepuscule-de-la-Beat-generation-Le-dernier-clochard-celeste.html,Skipping (both exist),empty,empty
+20250822,001019,Row,530,Au Dela Des Merveilles,https://www.bedetheque.com/serie-8577-BD-Au-dela-des-merveilles.html,Skipping (both exist),empty,empty
+20250822,001021,Row,531,Au Nom De La Republique,https://www.bedetheque.com/serie-79433-BD-Au-nom-de-la-Republique.html,Skipping (both exist),empty,empty
+20250822,001023,Row,532,Au Nom De Tout Les Miens,https://www.bedetheque.com/serie-2335-BD-Au-nom-de-tous-les-miens.html,Skipping (both exist),empty,empty
+20250822,001026,Row,533,Au Nom Du Fils,https://www.bedetheque.com/serie-26949-BD-Au-nom-du-fils-Ciudad-perdida.html,Skipping (both exist),empty,empty
+20250822,001028,Row,534,Au Nom Du Pain,https://www.bedetheque.com/serie-78436-BD-Au-nom-du-pain.html,Skipping (both exist),empty,empty
+20250822,001030,Row,535,Au Petit Bonheur La Science L'Histoire Meconnue Des Grandes Decouvertes,https://www.bedetheque.com/serie-91987-BD-Au-petit-bonheur-la-science.html,Skipping (both exist),empty,empty
+20250822,001032,Row,536,Au Revoir La Haut,https://www.bedetheque.com/serie-48948-BD-Au-revoir-la-haut.html,Skipping (both exist),empty,empty
+20250822,001035,Row,537,Au Revoir La-haut,https://www.bedetheque.com/serie-48948-BD-Au-revoir-la-haut.html,Skipping (both exist),empty,empty
+20250822,001037,Row,538,Au Royaume Des Aveugles,https://www.bedetheque.com/serie-33361-BD-Au-Royaume-des-aveugles.html,Skipping (both exist),empty,empty
+20250822,001040,Row,539,Au Travail,https://www.bedetheque.com/serie-36782-BD-Au-travail.html,Skipping (both exist),empty,empty
+20250822,001042,Row,540,Au-Dela Des Mers,https://www.bedetheque.com/serie-47835-BD-Au-dela-des-mers.html,Skipping (both exist),empty,empty
+20250822,001044,Row,541,Au-Dela Des Nuages,https://www.bedetheque.com/serie-14324-BD-Au-dela-des-nuages.html,Skipping (both exist),empty,empty
+20250822,001047,Row,542,Aubepine,https://www.bedetheque.com/serie-60738-BD-Aubepine.html,Skipping (both exist),empty,empty
+20250822,001049,Row,543,Auranella,https://www.bedetheque.com/serie-35369-BD-Auranella-Gemini.html,Skipping (both exist),empty,empty
+20250822,001051,Row,544,Aurora,https://www.bedetheque.com/serie-82048-BD-Aurora.html,Skipping (both exist),empty,empty
+20250822,001054,Row,545,Aurore,https://www.bedetheque.com/serie-6781-BD-Aurore-Goetzinger.html,Skipping (both exist),empty,empty
+20250822,001057,Row,546,Auschwitz,https://www.bedetheque.com/serie-498-BD-Auschwitz.html,Skipping (both exist),empty,empty
+20250822,001059,Row,547,Australes - Deux Recits Au Bout Du Monde,https://www.bedetheque.com/serie-27145-BD-Australes-Deux-recits-du-monde-au-bout-du-monde.html,Skipping (both exist),empty,empty
+20250822,001101,Row,548,Australes - Deux Recits Du Monde Au Bout Du Monde,https://www.bedetheque.com/serie-27145-BD-Australes-Deux-recits-du-monde-au-bout-du-monde.html,Skipping (both exist),empty,empty
+20250822,001104,Row,549,Autel California,https://www.bedetheque.com/serie-44974-BD-Autel-California.html,Skipping (both exist),empty,empty
+20250822,001107,Row,550,Automnal,https://www.bedetheque.com/serie-76934-BD-Automnal.html,Skipping (both exist),empty,empty
+20250822,001109,Row,551,Automne,https://www.bedetheque.com/serie-36183-BD-Automne.html,Skipping (both exist),empty,empty
+20250822,001112,Row,552,Automne En Baie De Somme,https://www.bedetheque.com/serie-79359-BD-Automne-en-baie-de-Somme.html,Skipping (both exist),empty,empty
+2025-08-22 00:11:15,356 - INFO - Waiting 60 seconds after search...
+20250822,001215,Row,553,Autopsie,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Autopsie,empty
+20250822,001217,Row,554,Autopsie D'Un Imposteur,https://www.bedetheque.com/serie-76084-BD-Autopsie-d-un-imposteur.html,Skipping (both exist),empty,empty
+20250822,001219,Row,555,Aux Heures Impaires,https://www.bedetheque.com/serie-18675-BD-Aux-heures-impaires.html,Skipping (both exist),empty,empty
+20250822,001222,Row,556,Aux Risques De L'Amour,https://www.bedetheque.com/serie-1781-BD-Aux-risques-de-l-amour.html,Skipping (both exist),empty,empty
+20250822,001224,Row,557,Ava Dream,https://www.bedetheque.com/serie-19294-BD-Ava-dream.html,Skipping (both exist),empty,empty
+20250822,001226,Row,558,Avant,https://www.bedetheque.com/serie-64232-BD-Avant.html,Skipping (both exist),empty,empty
+20250822,001228,Row,559,Avant L'Heure Du Tigre,https://www.bedetheque.com/serie-46937-BD-Avant-l-heure-du-tigre.html,Skipping (both exist),empty,empty
+20250822,001231,Row,560,Avatar - Le Champ Celeste,https://www.bedetheque.com/serie-83429-BD-Avatar-Le-champ-celeste.html,Skipping (both exist),empty,empty
+20250822,001233,Row,561,Avatar Le Dernier Maitre De L'Air,https://www.bedetheque.com/serie-28148-BD-Avatar-le-dernier-maitre-de-l-air.html,Skipping (both exist),empty,empty
+20250822,001235,Row,562,Avec Edouard Luntz,https://www.bedetheque.com/serie-61017-BD-Avec-Edouard-Luntz.html,Skipping (both exist),empty,empty
+20250822,001237,Row,563,Avel,https://www.bedetheque.com/serie-711-BD-Avel.html,Skipping (both exist),empty,empty
+20250822,001240,Row,564,Aven,https://www.bedetheque.com/serie-11628-BD-Aven.html,Skipping (both exist),empty,empty
+20250822,001242,Row,565,Avenir,https://www.bedetheque.com/serie-88912-BD-Avenir.html,Skipping (both exist),empty,empty
+20250822,001245,Row,566,Avenirs En Solde,https://www.bedetheque.com/serie-66797-BD-Avenirs-en-solde.html,Skipping (both exist),empty,empty
+20250822,001247,Row,567,Aventure Dans La Jungle,https://www.bedetheque.com/serie-25479-BD-Aventure-dans-la-jungle-Editions-Heritage.html,Skipping (both exist),empty,empty
+2025-08-22 00:12:49,908 - INFO - Waiting 60 seconds after search...
+20250822,001349,Row,568,Aventure Quantique,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Aventure%20Quantique,empty
+20250822,001352,Row,569,Aventures De Demain,https://www.bedetheque.com/serie-15798-BD-Aventures-de-demain.html,Skipping (both exist),empty,empty
+20250822,001354,Row,570,Aventures Fiction,https://www.bedetheque.com/serie-13773-BD-Aventures-fiction-1re-serie.html,Skipping (both exist),empty,empty
+20250822,001356,Row,571,Aventures Film,https://www.bedetheque.com/serie-20447-BD-Aventures-Film-1re-serie-Artima.html,Skipping (both exist),empty,empty
+20250822,001358,Row,572,Aventures Realistes,https://www.bedetheque.com/serie-4764-BD-Aventures-realistes.html,Skipping (both exist),empty,empty
+20250822,001401,Row,573,Aventurosaure,https://www.bedetheque.com/serie-63689-BD-Aventurosaure.html,Skipping (both exist),empty,empty
+20250822,001403,Row,574,Avery'S Blues,https://www.bedetheque.com/serie-53788-BD-Avery-s-Blues.html,Skipping (both exist),empty,empty
+20250822,001405,Row,575,Aves Les Cadets De Saumur,https://www.bedetheque.com/serie-25035-BD-Avec-les-Cadets-de-Saumur.html,Skipping (both exist),empty,empty
+20250822,001408,Row,576,Avni,https://www.bedetheque.com/serie-44819-BD-Avni.html,Skipping (both exist),empty,empty
+20250822,001410,Row,577,Avocat Du diable,https://www.bedetheque.com/serie-72873-BD-Avocat-du-Diable.html,Skipping (both exist),empty,empty
+20250822,001413,Row,578,Awrah,https://www.bedetheque.com/serie-20792-BD-Awrah.html,Skipping (both exist),empty,empty
+20250822,001415,Row,579,Axolot,https://www.bedetheque.com/serie-44720-BD-Axolot.html,Skipping (both exist),empty,empty
+20250822,001418,Row,580,Axolot - Histoires Extraordinaires And Sources D'Etonnement,https://www.bedetheque.com/serie-44720-BD-Axolot.html,Skipping (both exist),empty,empty
+20250822,001420,Row,581,Aya De Yopougon,https://www.bedetheque.com/serie-12737-BD-Aya-de-Yopougon.html,Skipping (both exist),empty,empty
+20250822,001423,Row,582,Aya Tsu,https://www.bedetheque.com/serie-33568-BD-Aya-Tsu.html,Skipping (both exist),empty,empty
+20250822,001425,Row,583,Ayak - Le Loup Blanc,https://www.bedetheque.com/serie-8555-BD-Ayak-le-loup-blanc.html,Skipping (both exist),empty,empty
+20250822,001428,Row,584,Ayak Le Loup Blanc,https://www.bedetheque.com/serie-8555-BD-Ayak-le-loup-blanc.html,Skipping (both exist),empty,empty
+20250822,001431,Row,585,Ayati,https://www.bedetheque.com/serie-61023-BD-Ayati.html,Skipping (both exist),empty,empty
+20250822,001433,Row,586,Ayla - Le Clan De L'Ours Des Cavernes,https://www.bedetheque.com/serie-86566-BD-Ayla.html,Skipping (both exist),empty,empty
+20250822,001436,Row,587,Ayrton Sena,https://www.bedetheque.com/serie-42586-BD-Ayrton-Senna.html,Skipping (both exist),empty,empty
+20250822,001439,Row,588,Ayu Mayu,https://www.bedetheque.com/serie-38506-BD-Ayu-Mayu.html,Skipping (both exist),empty,empty
+20250822,001442,Row,589,Azimut,https://www.bedetheque.com/serie-32886-BD-Azimut-Lupano-Andreae.html,Skipping (both exist),empty,empty
+20250822,001445,Row,590,Azizam,https://www.bedetheque.com/serie-72996-BD-Azizam.html,Skipping (both exist),empty,empty
+20250822,001448,Row,591,Azrayen,https://www.bedetheque.com/serie-351-BD-Azrayen.html,Skipping (both exist),empty,empty
+20250822,001450,Row,592,Azur,https://www.bedetheque.com/serie-27748-BD-Azur.html,Skipping (both exist),empty,empty
+2025-08-22 00:14:53,674 - INFO - Waiting 60 seconds after search...
+20250822,001553,Row,593,Azzam,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Azzam,empty
+20250822,001555,Row,594,Bab El-Mandeb,https://www.bedetheque.com/serie-1610-BD-Bab-El-Mandeb.html,Skipping (both exist),empty,empty
+20250822,001558,Row,595,Babel,https://www.bedetheque.com/serie-11270-BD-Babel-Ange-et-Janolle.html,Skipping (both exist),empty,empty
+20250822,001600,Row,596,Babiole Et Zou,https://www.bedetheque.com/serie-741-BD-Babiole-et-Zou.html,Skipping (both exist),empty,empty
+20250822,001603,Row,597,Baby Bang,https://www.bedetheque.com/serie-605-BD-Bang-Bang.html,Skipping (both exist),empty,empty
+20250822,001605,Row,598,Babybox,https://www.bedetheque.com/serie-62786-BD-Babybox.html,Skipping (both exist),empty,empty
+20250822,001608,Row,599,Babylon 5,https://comicvine.gamespot.com/babylon-5/4050-11358/,Skipping (both exist),empty,empty
+20250822,001610,Row,600,Babylon Berlin,https://www.bedetheque.com/serie-63789-BD-Babylon-Berlin.html,Skipping (both exist),empty,empty
+20250822,001613,Row,601,Babylone,https://www.bedetheque.com/serie-70453-BD-Babylone-Giroud-Galandon-Nicloux.html,Skipping (both exist),empty,empty
+20250822,001615,Row,602,Back To Perdition,https://www.bedetheque.com/serie-25360-BD-Back-to-Perdition.html,Skipping (both exist),empty,empty
+20250822,001618,Row,603,Back To The Future,https://www.bedetheque.com/serie-49861-BD-Back-to-the-Future-2015.html,Skipping (both exist),empty,empty
+20250822,001621,Row,604,Back World,https://www.bedetheque.com/serie-16147-BD-Back-World.html,Skipping (both exist),empty,empty
+20250822,001623,Row,605,Bad Ass,https://www.bedetheque.com/serie-36564-BD-Bad-Ass.html,Skipping (both exist),empty,empty
+20250822,001626,Row,606,Bad Blood,https://www.bedetheque.com/serie-53334-BD-Bad-Blood.html,Skipping (both exist),empty,empty
+20250822,001629,Row,607,Badlands,https://www.bedetheque.com/serie-41900-BD-Badlands.html,Skipping (both exist),empty,empty
+20250822,001631,Row,608,Badminton,https://www.bedetheque.com/serie-33285-BD-Badminton.html,Skipping (both exist),empty,empty
+20250822,001634,Row,609,Bafflerog Le Sorcier,https://www.bedetheque.com/serie-3338-BD-Bafflerog-le-sorcier.html,Skipping (both exist),empty,empty
+20250822,001637,Row,610,Bagarre Au Far-West,https://www.bedetheque.com/serie-9285-BD-Bagarre-au-Far-West.html,Skipping (both exist),empty,empty
+20250822,001640,Row,611,Bagdad Inc,https://www.bedetheque.com/serie-48580-BD-Bagdad-Inc.html,Skipping (both exist),empty,empty
+20250822,001643,Row,612,Bain D'Encre,https://www.bedetheque.com/serie-5242-BD-Bain-d-encre.html,Skipping (both exist),empty,empty
+20250822,001645,Row,613,Bakelandt,https://www.bedetheque.com/serie-3320-BD-Bakelandt.html,Skipping (both exist),empty,empty
+20250822,001648,Row,614,Bakemono,https://www.bedetheque.com/serie-14111-BD-Bakemono.html,Skipping (both exist),empty,empty
+20250822,001650,Row,615,Baker Street,https://www.bedetheque.com/serie-2074-BD-Baker-Street.html,Skipping (both exist),empty,empty
+20250822,001653,Row,616,Balade Au Bout Du Monde,https://www.bedetheque.com/serie-147-BD-Balade-au-Bout-du-monde.html,Skipping (both exist),empty,empty
+20250822,001655,Row,617,Balilla - Les Enfants Du Duce,https://www.bedetheque.com/serie-37005-BD-Balilla-les-enfants-du-Duce.html,Skipping (both exist),empty,empty
+20250822,001657,Row,618,Balles Perdues,https://www.bedetheque.com/serie-46038-BD-Balles-Perdues-Hill-Matz-Jef.html,Skipping (both exist),empty,empty
+20250822,001700,Row,619,Banana Sioule,https://www.bedetheque.com/serie-77351-BD-Banana-Sioule.html,Skipping (both exist),empty,empty
+20250822,001702,Row,620,Bananas,https://www.bedetheque.com/revue-Bananas-nouvelle-Serie.html,Skipping (both exist),empty,empty
+20250822,001705,Row,621,Bananes Mecaniques Metalliques,https://www.bedetheque.com/serie-3672-BD-Bananes-metalliques.html,Skipping (both exist),empty,empty
+20250822,001707,Row,622,Bande De Pirates,https://www.bedetheque.com/serie-79693-BD-Bande-de-pirates.html,Skipping (both exist),empty,empty
+20250822,001709,Row,623,Bandolero,https://www.bedetheque.com/serie-6750-BD-Bandolero.html,Skipping (both exist),empty,empty
+20250822,001712,Row,624,Bandoneon,https://www.bedetheque.com/serie-23501-BD-Bandoneon-Gonzalez.html,Skipping (both exist),empty,empty
+20250822,001714,Row,625,Bang,https://www.bedetheque.com/serie-24919-BD-Bang.html,Skipping (both exist),empty,empty
+20250822,001717,Row,626,Bang Bang,https://www.bedetheque.com/serie-605-BD-Bang-Bang.html,Skipping (both exist),empty,empty
+20250822,001719,Row,627,Banquise,https://www.bedetheque.com/serie-4875-BD-Banquise.html,Skipping (both exist),empty,empty
+20250822,001722,Row,628,Banzai,https://www.bedetheque.com/serie-10360-BD-Banzai-1re-serie-Aredit.html,Skipping (both exist),empty,empty
+20250822,001724,Row,629,Bapt And Gael,https://www.bedetheque.com/serie-66722-BD-Bapt-et-Gael.html,Skipping (both exist),empty,empty
+20250822,001727,Row,630,Baptiste,https://www.bedetheque.com/serie-21826-BD-Baptiste.html,Skipping (both exist),empty,empty
+20250822,001730,Row,631,Barbara Wolf,https://www.bedetheque.com/serie-7279-BD-Barbara-Wolf.html,Skipping (both exist),empty,empty
+20250822,001732,Row,632,Barbe-Rouge,https://www.bedetheque.com/serie-60-BD-Barbe-Rouge.html,Skipping (both exist),empty,empty
+20250822,001735,Row,633,Barcelona,https://www.bedetheque.com/serie-9321-BD-Barcelona.html,Skipping (both exist),empty,empty
+20250822,001737,Row,634,Barcelona - Ame Noire,https://www.bedetheque.com/serie-87996-BD-Barcelona-ame-noire.html,Skipping (both exist),empty,empty
+20250822,001740,Row,635,Barcelonight,https://www.bedetheque.com/serie-1215-BD-Barcelonight.html,Skipping (both exist),empty,empty
+20250822,001742,Row,636,Bare Kness,https://www.bedetheque.com/serie-76902-BD-Bare-Kness.html,Skipping (both exist),empty,empty
+20250822,001744,Row,637,Barelli,https://www.bedetheque.com/serie-2442-BD-Barelli.html,Skipping (both exist),empty,empty
+20250822,001747,Row,638,Baron Rouge,https://www.bedetheque.com/serie-33132-BD-Baron-Rouge-Puerta.html,Skipping (both exist),empty,empty
+20250822,001750,Row,639,Baron Samedi,https://www.bedetheque.com/serie-25594-BD-Baron-Samedi.html,Skipping (both exist),empty,empty
+20250822,001753,Row,640,Barracuda,https://www.bedetheque.com/serie-25441-BD-Barracuda-Jeremy.html,Skipping (both exist),empty,empty
+20250822,001756,Row,641,Barrio,https://www.bedetheque.com/serie-6783-BD-Barrio.html,Skipping (both exist),empty,empty
+20250822,001758,Row,642,Barry Lan,https://www.bedetheque.com/serie-1490-BD-Barry-Lan.html,Skipping (both exist),empty,empty
+20250822,001801,Row,643,Bartleby Le Scribe,https://www.babelio.com/livres/Munuera-Bartleby-le-scribe-BD/1296814,Skipping (both exist),empty,empty
+20250822,001803,Row,644,Barzoon Circus,https://www.bedetheque.com/serie-25861-BD-Barzoon-Circus.html,Skipping (both exist),empty,empty
+20250822,001805,Row,645,Basil Et Victoria,https://www.bedetheque.com/serie-2547-BD-Basil-Victoria.html,Skipping (both exist),empty,empty
+20250822,001808,Row,646,Basilico,https://www.bedetheque.com/serie-70405-BD-Basilico.html,Skipping (both exist),empty,empty
+20250822,001810,Row,647,Basket Dunk,https://www.bedetheque.com/serie-11784-BD-Basket-dunk.html,Skipping (both exist),empty,empty
+20250822,001813,Row,648,Baston 5,https://www.bedetheque.com/serie-9896-BD-Baston-5.html,Skipping (both exist),empty,empty
+20250822,001816,Row,649,Bastos Et Zakousky,https://www.bedetheque.com/serie-2831-BD-Bastos-et-Zakousky.html,Skipping (both exist),empty,empty
+20250822,001819,Row,650,Bastos Et Zakouzky,https://www.bedetheque.com/serie-2831-BD-Bastos-et-Zakousky.html,Skipping (both exist),empty,empty
+20250822,001821,Row,651,Bat Lash,https://www.bedetheque.com/serie-17417-BD-Bat-Lash.html,Skipping (both exist),empty,empty
+2025-08-22 00:18:24,877 - INFO - Waiting 60 seconds after search...
+20250822,001924,Row,652,Bat Mad - Krotham Knight,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Bat%20Mad%20-%20Krotham%20Knight,empty
+20250822,001927,Row,653,Bat Man,https://www.bedetheque.com/serie-20360-BD-Bat-Man-Artima.html,Skipping (both exist),empty,empty
+20250822,001929,Row,654,Batard,https://www.bedetheque.com/serie-48176-BD-Batard.html,Skipping (both exist),empty,empty
+20250822,001931,Row,655,Batardes De Zeus,https://www.bedetheque.com/serie-89051-BD-Batardes-de-Zeus.html,Skipping (both exist),empty,empty
+20250822,001933,Row,656,Batchalo,https://www.bedetheque.com/serie-35021-BD-Batchalo.html,Skipping (both exist),empty,empty
+20250822,001936,Row,657,Bathory La Comtesse Maudite,https://www.bedetheque.com/serie-80701-BD-Bathory-La-comtesse-maudite.html,Skipping (both exist),empty,empty
+20250822,001938,Row,658,Batisseurs,https://www.bedetheque.com/serie-78936-BD-Les-batisseurs.html,Skipping (both exist),empty,empty
+20250822,001940,Row,659,Batman - Dark Night,https://www.bedetheque.com/BD-Batman-TPB-INT-Dark-Night-Dark-City-239787.html,Skipping (both exist),empty,empty
+20250822,001942,Row,660,Battlefields,https://www.bedetheque.com/serie-84318-BD-Battlefields.html,Skipping (both exist),empty,empty
+20250822,001945,Row,661,Battler Britton,https://www.bedetheque.com/serie-18445-BD-Battler-Britton.html,Skipping (both exist),empty,empty
+20250822,001947,Row,662,Battlestar Galactica,https://www.bedetheque.com/serie-42670-BD-Battlestar-Galactica-2006.html,Skipping (both exist),empty,empty
+20250822,001949,Row,663,Baudelaire,https://www.bedetheque.com/serie-14871-BD-Baudelaire.html,Skipping (both exist),empty,empty
+20250822,001951,Row,664,Baume Du Tigre,https://www.bedetheque.com/serie-70174-BD-Baume-du-tigre.html,Skipping (both exist),empty,empty
+20250822,001954,Row,665,Bayou Bastardise,https://www.bedetheque.com/serie-48485-BD-Bayou-Bastardise.html,Skipping (both exist),empty,empty
+20250822,001956,Row,666,Beach Boys,https://www.bedetheque.com/serie-7903-BD-Beach-Boys.html,Skipping (both exist),empty,empty
+20250822,001959,Row,667,Beast,https://www.bedetheque.com/serie-18157-BD-Beast.html,Skipping (both exist),empty,empty
+20250822,002002,Row,668,Beatifica Blues,https://www.bedetheque.com/serie-1512-BD-Beatifica-Blues.html,Skipping (both exist),empty,empty
+20250822,002004,Row,669,Beatrice,https://www.bedetheque.com/serie-68688-BD-Beatrice.html,Skipping (both exist),empty,empty
+20250822,002007,Row,670,Beaute,https://www.bedetheque.com/serie-27204-BD-Beaute.html,Skipping (both exist),empty,empty
+20250822,002009,Row,671,Beaute Fatale,https://www.bedetheque.com/serie-20124-BD-Beaute-fatale.html,Skipping (both exist),empty,empty
+20250822,002011,Row,672,Beautifull Life,https://www.bedetheque.com/serie-10453-BD-Beautiful-life.html,Skipping (both exist),empty,empty
+20250822,002014,Row,673,Beaux Rivages,https://www.bedetheque.com/serie-5360-BD-Beaux-rivages.html,Skipping (both exist),empty,empty
+20250822,002016,Row,674,Becassine Chez Les Allies,https://www.bedetheque.com/serie-33147-BD-Becassine-Hachette.html,Skipping (both exist),empty,empty
+20250822,002019,Row,675,Bedes Juveniles,https://www.bedetheque.com/serie-4171-BD-Bedes-juveniles.html,Skipping (both exist),empty,empty
+20250822,002021,Row,676,Beethov Sur Seine - Une Annee Avec L'Orchestre,https://www.bdtheque.com/series/19853/beethov-sur-seine-une-annee-avec-l-orchestre,Skipping (both exist),empty,empty
+20250822,002024,Row,677,Beethoven - Le Prix De La Liberte,https://www.bedetheque.com/serie-74991-BD-Beethoven-Le-prix-de-la-liberte.html,Skipping (both exist),empty,empty
+20250822,002026,Row,678,Beetle Et Les Hollowbones,https://www.bedetheque.com/serie-83097-BD-Beetle-les-Hollowbones.html,Skipping (both exist),empty,empty
+20250822,002029,Row,679,Bekame,https://www.bedetheque.com/serie-32102-BD-Bekame.html,Skipping (both exist),empty,empty
+20250822,002032,Row,680,Belem,https://www.bedetheque.com/serie-14346-BD-Belem-Delitte.html,Skipping (both exist),empty,empty
+20250822,002035,Row,681,Bella Ciao,https://www.bedetheque.com/serie-70817-BD-Bella-ciao.html,Skipping (both exist),empty,empty
+20250822,002037,Row,682,Belladone,https://www.bedetheque.com/serie-9894-BD-Belladone.html,Skipping (both exist),empty,empty
+20250822,002039,Row,683,Bellagamba,https://www.bedetheque.com/serie-750-BD-Bellagamba.html,Skipping (both exist),empty,empty
+20250822,002042,Row,684,Bellatrix,https://www.bedetheque.com/serie-85207-BD-Bellatrix.html,Skipping (both exist),empty,empty
+20250822,002044,Row,685,Belle Comme La Mort,https://www.bedetheque.com/serie-6565-BD-Belle-comme-la-mort.html,Skipping (both exist),empty,empty
+20250822,002046,Row,686,Bellerophon Et La Chimere,https://www.bedetheque.com/serie-71025-BD-Bellerophon-et-la-Chimere.html,Skipping (both exist),empty,empty
+2025-08-22 00:20:49,288 - INFO - Waiting 60 seconds after search...
+20250822,002149,Row,687,Belleville Story,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Belleville%20Story,empty
+20250822,002151,Row,688,Belloy,https://www.bedetheque.com/serie-2552-BD-Belloy.html,Skipping (both exist),empty,empty
+20250822,002154,Row,689,Belmondo S'Affiche,https://www.bedetheque.com/serie-19361-BD-Belmondo-s-affiche.html,Skipping (both exist),empty,empty
+20250822,002156,Row,690,Ben,https://www.bedetheque.com/serie-23743-BD-Ben.html,Skipping (both exist),empty,empty
+2025-08-22 00:21:59,497 - INFO - Waiting 60 seconds after search...
+20250822,002259,Row,691,Ben Barka La Disparition,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Ben%20Barka%20La%20Disparition,empty
+20250822,002301,Row,692,Bengali,https://www.bedetheque.com/serie-19502-BD-Bengali-Akim-Special-Hors-Serie-puis-Akim-Special-puis.html,Skipping (both exist),empty,empty
+20250822,002303,Row,693,Benoit Brisefer,https://www.bedetheque.com/serie-689-BD-Benoit-Brisefer.html,Skipping (both exist),empty,empty
+20250822,002306,Row,694,Berceuse Assassine,https://www.bedetheque.com/serie-95-BD-Berceuse-assassine.html,Skipping (both exist),empty,empty
+20250822,002308,Row,695,Berezina,https://www.bedetheque.com/serie-79220-BD-Berezina.html,Skipping (both exist),empty,empty
+20250822,002310,Row,696,Berlin,https://www.bedetheque.com/serie-15573-BD-Berlin-Marvano.html,Skipping (both exist),empty,empty
+20250822,002312,Row,697,Berlin 2.0,https://www.bedetheque.com/serie-51246-BD-Berlin-20.html,Skipping (both exist),empty,empty
+20250822,002315,Row,698,Berlin Sera Notre Tombeau,https://www.bedetheque.com/serie-65697-BD-Berlin-sera-notre-tombeau.html,Skipping (both exist),empty,empty
+20250822,002317,Row,699,Berlinoir,https://www.bedetheque.com/serie-7610-BD-Berlinoir.html,Skipping (both exist),empty,empty
+20250822,002319,Row,700,Bernard Chamblet,https://www.bedetheque.com/serie-4249-BD-Bernard-Chamblet.html,Skipping (both exist),empty,empty
+20250822,002322,Row,701,Bernard Lermite,https://www.bedetheque.com/serie-1463-BD-Bernard-Lermite.html,Skipping (both exist),empty,empty
+20250822,002324,Row,702,Bernard Prince,https://www.bedetheque.com/serie-96-BD-Bernard-Prince.html,Skipping (both exist),empty,empty
+20250822,002326,Row,703,Bernarreke,https://www.bedetheque.com/serie-49251-BD-Bernarreke.html,Skipping (both exist),empty,empty
+20250822,002329,Row,704,Bertille Et Bertille,https://www.bedetheque.com/serie-79774-BD-Bertille-Bertille.html,Skipping (both exist),empty,empty
+20250822,002332,Row,705,Bessy,https://www.bedetheque.com/serie-680-BD-Bessy.html,Skipping (both exist),empty,empty
+20250822,002334,Row,706,Betelgeuse,https://www.bedetheque.com/serie-1806-BD-Betelgeuse.html,Skipping (both exist),empty,empty
+20250822,002337,Row,707,Bettie Hunter,https://www.bedetheque.com/serie-76204-BD-Bettie-Hunter.html,Skipping (both exist),empty,empty
+20250822,002339,Row,708,Betty Blues,https://www.bedetheque.com/serie-7483-BD-Betty-Blues.html,Skipping (both exist),empty,empty
+20250822,002341,Row,709,Betty Boob,https://www.bedetheque.com/serie-57565-BD-Betty-Boob.html,Skipping (both exist),empty,empty
+20250822,002344,Row,710,Biankha,https://www.bedetheque.com/serie-14017-BD-Biankha.html,Skipping (both exist),empty,empty
+20250822,002346,Row,711,Bibi Fricotin,https://www.bedetheque.com/serie-30427-BD-Bibi-Fricotin-1e-Serie-SPE-Avant-Guerre.html,Skipping (both exist),empty,empty
+20250822,002349,Row,712,Biblio + Picto,https://www.bedetheque.com/serie-86793-BD-Biblio-Picto.html,Skipping (both exist),empty,empty
+20250822,002351,Row,713,Bichon,https://www.bedetheque.com/serie-40641-BD-Bichon.html,Skipping (both exist),empty,empty
+20250822,002354,Row,714,Bidouille Et Violette,https://www.bedetheque.com/serie-753-BD-Bidouille-et-Violette.html,Skipping (both exist),empty,empty
+20250822,002356,Row,715,Bidule,https://www.bedetheque.com/serie-27565-BD-Bidule-Rodrigue.html,Skipping (both exist),empty,empty
+20250822,002358,Row,716,Bienvenue,https://www.bedetheque.com/serie-25370-BD-Bienvenue.html,Skipping (both exist),empty,empty
+20250822,002401,Row,717,Bienvenue a Boboland,https://www.bedetheque.com/serie-17994-BD-Bienvenue-a-BoBoLand.html,Skipping (both exist),empty,empty
+2025-08-22 00:24:03,859 - INFO - Waiting 60 seconds after search...
+20250822,002503,Row,718,Bienvenue A Pandemonia,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Bienvenue%20A%20Pandemonia,empty
+20250822,002506,Row,719,Bienvenue En Chine,https://www.bedetheque.com/serie-66803-BD-Bienvenue-en-Chine.html,Skipping (both exist),empty,empty
+20250822,002508,Row,720,Biere Pour Tout Le Monde Ou Presque,https://www.bedetheque.com/serie-53912-BD-Biere-pour-tout-le-monde-ou-presque.html,Skipping (both exist),empty,empty
+20250822,002510,Row,721,Big Band Cats,https://www.bedetheque.com/serie-40100-BD-Big-Bang-Cats.html,Skipping (both exist),empty,empty
+20250822,002512,Row,722,Big Bill Est Mort,https://www.bedetheque.com/serie-10775-BD-Big-Bill-est-mort.html,Skipping (both exist),empty,empty
+20250822,002514,Row,723,Big Boss,https://www.bedetheque.com/serie-25049-BD-Big-Boss-1re-serie.html,Skipping (both exist),empty,empty
+20250822,002517,Row,724,Big Boy,https://www.bedetheque.com/serie-19501-BD-Big-Boy.html,Skipping (both exist),empty,empty
+20250822,002519,Row,725,Big Foot,https://www.bedetheque.com/serie-14672-BD-Big-Foot.html,Skipping (both exist),empty,empty
+20250822,002521,Row,726,Big Guy And Rusty The Boy Robot,https://www.bedetheque.com/serie-33701-BD-Big-Guy-and-Rusty-the-Boy-Robot-1995.html,Skipping (both exist),empty,empty
+20250822,002523,Row,727,Big K,https://www.bedetheque.com/serie-31901-BD-Big-K.html,Skipping (both exist),empty,empty
+20250822,002526,Row,728,Big Under,https://www.bedetheque.com/serie-82742-BD-Big-Under.html,Skipping (both exist),empty,empty
+20250822,002528,Row,729,Bigfoot,https://www.bedetheque.com/serie-13979-BD-Bigfoot.html,Skipping (both exist),empty,empty
+20250822,002530,Row,730,Biggles,https://www.bedetheque.com/serie-7731-BD-Biggles.html,Skipping (both exist),empty,empty
+20250822,002533,Row,731,Biguden,https://www.bedetheque.com/serie-44262-BD-Biguden.html,Skipping (both exist),empty,empty
+20250822,002535,Row,732,Bikini Atoll,https://www.bedetheque.com/serie-51439-BD-Bikini-atoll.html,Skipping (both exist),empty,empty
+20250822,002537,Row,733,Bilal,https://www.bedetheque.com/serie-5944-BD-AUT-Bilal.html,Skipping (both exist),empty,empty
+20250822,002540,Row,734,Bilbo Le Hobbit,https://www.bedetheque.com/serie-1976-BD-Bilbo-le-Hobbit.html,Skipping (both exist),empty,empty
+20250822,002542,Row,735,Bill Baroud,https://www.bedetheque.com/serie-1611-BD-Bill-Baroud.html,Skipping (both exist),empty,empty
+20250822,002544,Row,736,Bill Finger - Dans L'Ombre Du Mythe,https://www.bedetheque.com/serie-79720-BD-Bill-Finger-dans-l-ombre-du-mythe.html,Skipping (both exist),empty,empty
+20250822,002546,Row,737,Billets D'Amour,https://www.bedetheque.com/serie-43154-BD-Billets-d-Amour.html,Skipping (both exist),empty,empty
+20250822,002549,Row,738,Billy Bonbon,https://www.bedetheque.com/serie-2194-BD-Billy-Bonbon.html,Skipping (both exist),empty,empty
+20250822,002551,Row,739,Billy James,https://www.bedetheque.com/serie-4015-BD-Billy-James.html,Skipping (both exist),empty,empty
+20250822,002554,Row,740,Billy The Cat,https://www.bedetheque.com/serie-2316-BD-Billy-the-Cat.html,Skipping (both exist),empty,empty
+20250822,002556,Row,741,Billy Wild,https://www.bedetheque.com/serie-14678-BD-Billy-Wild.html,Skipping (both exist),empty,empty
+20250822,002559,Row,742,Bine,https://www.bedetheque.com/serie-57006-BD-Bine.html,Skipping (both exist),empty,empty
+20250822,002601,Row,743,Biotope,https://www.bedetheque.com/serie-14695-BD-Biotope.html,Skipping (both exist),empty,empty
+20250822,002603,Row,744,Biozone - Biodome,https://www.bedetheque.com/serie-27422-BD-Biozone-Biodome.html,Skipping (both exist),empty,empty
+20250822,002606,Row,745,Bird,https://www.bedetheque.com/serie-5964-BD-Bird.html,Skipping (both exist),empty,empty
+20250822,002609,Row,746,Birdking,https://www.bedetheque.com/serie-87921-BD-Birdking.html,Skipping (both exist),empty,empty
+20250822,002611,Row,747,Birthright,https://www.bedetheque.com/serie-49612-BD-Birthright.html,Skipping (both exist),empty,empty
+20250822,002614,Row,748,Birthright,https://www.bedetheque.com/serie-49612-BD-Birthright.html,Skipping (both exist),empty,empty
+20250822,002616,Row,749,Bitter Root,https://www.bedetheque.com/serie-68435-BD-Bitter-Root.html,Skipping (both exist),empty,empty
+20250822,002619,Row,750,Bizu,https://www.bedetheque.com/serie-754-BD-Bizu.html,Skipping (both exist),empty,empty
+20250822,002621,Row,751,Black Beard,https://www.bedetheque.com/serie-71329-BD-Black-Beard.html,Skipping (both exist),empty,empty
+20250822,002624,Row,752,Black Crow,https://www.bedetheque.com/serie-20411-BD-Black-Crow.html,Skipping (both exist),empty,empty
+20250822,002626,Row,753,Black Dog - Les Reves De Paul Nash,https://www.bedetheque.com/serie-58162-BD-Black-Dog-les-reves-de-Paul-Nash.html,Skipping (both exist),empty,empty
+20250822,002629,Row,754,Black Et Mortamere,https://www.bedetheque.com/serie-12657-BD-Black-Mortamere.html,Skipping (both exist),empty,empty
+20250822,002631,Row,755,Black Force Squadron,https://www.bedetheque.com/serie-28256-BD-Black-Force-squadron.html,Skipping (both exist),empty,empty
+20250822,002633,Row,756,Black Hills,https://www.bedetheque.com/serie-1444-BD-Black-Hills-1890.html,Skipping (both exist),empty,empty
+20250822,002636,Row,757,Black Hills 1890,https://www.bedetheque.com/serie-1444-BD-Black-Hills-1890.html,Skipping (both exist),empty,empty
+20250822,002638,Row,758,Black Hole,https://www.bedetheque.com/serie-3633-BD-Black-hole.html,Skipping (both exist),empty,empty
+20250822,002641,Row,759,Black Lord,https://www.bedetheque.com/serie-42188-BD-Black-Lord.html,Skipping (both exist),empty,empty
+20250822,002643,Row,760,Black Op,https://www.bedetheque.com/serie-10931-BD-Black-Op.html,Skipping (both exist),empty,empty
+20250822,002646,Row,761,Black Sands - Unite 731,https://www.bedetheque.com/serie-51450-BD-Black-Sands-Unite-731.html,Skipping (both exist),empty,empty
+20250822,002649,Row,762,Black Science,https://www.bedetheque.com/serie-46250-BD-Black-Science.html,Skipping (both exist),empty,empty
+20250822,002651,Row,763,Black Squaw,https://www.bedetheque.com/serie-70041-BD-Black-Squaw.html,Skipping (both exist),empty,empty
+20250822,002654,Row,764,Blackgas,https://www.bedetheque.com/serie-51352-BD-Blackgas-2006.html,Skipping (both exist),empty,empty
+20250822,002656,Row,765,Blackjack,https://www.bedetheque.com/serie-631-BD-Blackjack-Cuzor.html,Skipping (both exist),empty,empty
+20250822,002659,Row,766,Blackline,https://www.bedetheque.com/serie-26927-BD-Blackline.html,Skipping (both exist),empty,empty
+20250822,002702,Row,767,Blacksad,https://www.bedetheque.com/serie-500-BD-Blacksad.html,Skipping (both exist),empty,empty
+20250822,002704,Row,768,Blackstone,https://www.bedetheque.com/serie-32505-BD-BlackStone.html,Skipping (both exist),empty,empty
+20250822,002706,Row,769,Blackwood,https://www.bedetheque.com/serie-18544-BD-Blackwood.html,Skipping (both exist),empty,empty
+20250822,002709,Row,770,Blade Runner,https://www.bedetheque.com/serie-10430-BD-Blade-Runner.html,Skipping (both exist),empty,empty
+20250822,002711,Row,771,Blagues Coquines,https://www.bedetheque.com/serie-1728-BD-Blagues-coquines.html,Skipping (both exist),empty,empty
+20250822,002716,Row,772,Blak Crow,https://www.bedetheque.com/serie-20411-BD-Black-Crow.html,Skipping (both exist),empty,empty
+20250822,002722,Row,773,Blake et Mortimer,https://www.bedetheque.com/serie-1850-BD-Blake-et-Mortimer.html,Skipping (both exist),empty,empty
+20250822,002726,Row,774,Blanc Autour,https://www.bedetheque.com/serie-71437-BD-Blanc-autour.html,Skipping (both exist),empty,empty
+20250822,002729,Row,775,Blanc Casque,https://www.bedetheque.com/serie-5302-BD-Blanc-Casque.html,Skipping (both exist),empty,empty
+20250822,002732,Row,776,Blancafor - La Princesse Aux Pouvoirs Secrets,https://www.bedetheque.com/serie-82267-BD-Blancaflor-La-princesse-aux-pouvoirs-secrets.html,Skipping (both exist),empty,empty
+20250822,002736,Row,777,Blanche Epiphanie,https://www.bedetheque.com/serie-4319-BD-Blanche-Epiphanie.html,Skipping (both exist),empty,empty
+20250822,002739,Row,778,Blanche Neige,https://www.bedetheque.com/serie-54635-BD-Blanche-Neige-Lylian-Vessillier.html,Skipping (both exist),empty,empty
+20250822,002742,Row,779,Blandice,https://www.bedetheque.com/revue-Blandice.html,Skipping (both exist),empty,empty
+20250822,002744,Row,780,Blason D'Argent,https://www.bedetheque.com/serie-4529-BD-Blason-d-Argent.html,Skipping (both exist),empty,empty
+20250822,002747,Row,781,Blast,https://www.bedetheque.com/serie-21937-BD-Blast.html,Skipping (both exist),empty,empty
+2025-08-22 00:27:50,419 - ERROR - Cover fetch error for 'https://fr.xhamster.com/photos/gallery/comic-blazing-foxholes-02-art-wetherell-eng-1808092': 410 Client Error: Gone for url: https://fra.xhamster.com/photos/gallery/comic-blazing-foxholes-02-art-wetherell-eng-1808092
+20250822,002850,Row,782,Blazing Foxholes,https://fr.xhamster.com/photos/gallery/comic-blazing-foxholes-02-art-wetherell-eng-1808092,Found (no cover),empty,empty
+20250822,002852,Row,783,Blek Le Roc,https://www.bedetheque.com/serie-4996-BD-Blek-le-roc-L-integrale.html,Skipping (both exist),empty,empty
+20250822,002855,Row,784,Bleu A La Lumiere Du Jour,https://www.bedetheque.com/serie-84841-BD-Bleu-a-la-lumiere-du-jour.html,Skipping (both exist),empty,empty
+20250822,002857,Row,785,Bleu Amer,https://www.bedetheque.com/serie-59562-BD-Bleu-amer.html,Skipping (both exist),empty,empty
+20250822,002859,Row,786,Bleu Blanc Sang,https://www.bedetheque.com/serie-37842-BD-Bleu-blanc-sang.html,Skipping (both exist),empty,empty
+20250822,002902,Row,787,Bleu Lezard,https://www.bedetheque.com/serie-367-BD-Bleu-Lezard.html,Skipping (both exist),empty,empty
+20250822,002904,Row,788,Bleu Petrole,https://www.bedetheque.com/serie-56281-BD-Bleu-petrole.html,Skipping (both exist),empty,empty
+20250822,002906,Row,789,Bleu sang,https://www.bedetheque.com/BD-AUT-Bilal-Tome-5-Bleu-sang-27132.html,Skipping (both exist),empty,empty
+20250822,002909,Row,790,Bleus 98 De L'Enfer Au Paradis,https://www.bedetheque.com/serie-61022-BD-Bleus-98-de-l-Enfer-au-Paradis.html,Skipping (both exist),empty,empty
+20250822,002911,Row,791,Blind Dog Rhapsody,https://www.bedetheque.com/serie-42251-BD-Blind-Dog-Rhapsody.html,Skipping (both exist),empty,empty
+20250822,002913,Row,792,Blitz,https://www.bedetheque.com/serie-4078-BD-Blitz-Riviere-Floc-h.html,Skipping (both exist),empty,empty
+20250822,002916,Row,793,Bliz,https://www.bedetheque.com/serie-36173-BD-Bliz-Aredit.html,Skipping (both exist),empty,empty
+20250822,002918,Row,794,Block 109,https://www.bedetheque.com/serie-23353-BD-Block-109.html,Skipping (both exist),empty,empty
+20250822,002921,Row,795,Blondin Et Cirage,https://www.bedetheque.com/serie-24639-BD-AUT-Buscema-John.html,Skipping (both exist),empty,empty
+20250822,002923,Row,796,Blood Red Lake,https://www.bedetheque.com/serie-53958-BD-Blood-Red-Lake.html,Skipping (both exist),empty,empty
+20250822,002926,Row,797,Bloodborne,https://www.bedetheque.com/serie-63339-BD-Bloodborne.html,Skipping (both exist),empty,empty
+20250822,002928,Row,798,Bloodi,https://www.bedetheque.com/serie-2439-BD-Bloodi.html,Skipping (both exist),empty,empty
+20250822,002931,Row,799,Bloodline,https://www.bedetheque.com/serie-25-BD-Bloodline.html,Skipping (both exist),empty,empty
+20250822,002934,Row,800,Bloody Harry,https://www.bedetheque.com/serie-54059-BD-Bloody-Harry.html,Skipping (both exist),empty,empty
+20250822,002936,Row,801,Blotch,https://www.bedetheque.com/serie-428-BD-Blotch.html,Skipping (both exist),empty,empty
+20250822,002939,Row,802,Blue,https://www.bedetheque.com/serie-2455-BD-Blue-Gauckler-Houssin.html,Skipping (both exist),empty,empty
+20250822,002941,Row,803,Blue Au Pays Des Songes,https://www.bedetheque.com/serie-68567-BD-Blue-au-pays-des-songes.html,Skipping (both exist),empty,empty
+20250822,002944,Row,804,Blue Bird,https://www.bedetheque.com/serie-757-BD-Blue-Bird.html,Skipping (both exist),empty,empty
+20250822,002946,Row,805,Blue Giant,https://www.bedetheque.com/serie-61415-BD-Blue-Giant.html,Skipping (both exist),empty,empty
+20250822,002949,Row,806,Blue Note,https://www.bedetheque.com/serie-39494-BD-Blue-Note.html,Skipping (both exist),empty,empty
+2025-08-22 00:38:33,064 - INFO - Starting processing with non-interactive mode
+2025-08-22 00:38:33,069 - ERROR - Error processing file: [Errno 2] No such file or directory: 'new-db.xls'
+2025-08-22 00:38:51,257 - INFO - Starting processing with non-interactive mode
+2025-08-22 00:38:51,271 - ERROR - Error processing file: Worksheet named 'bd' not found
+2025-08-22 00:39:43,327 - INFO - Starting processing with non-interactive mode
+2025-08-22 00:39:43,648 - INFO - Waiting 60 seconds after search...
+20250822,004043,Row,3,Arsene Lupin Et Le Dernier Secret De Nostradamus,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Arsene%20Lupin%20Et%20Le%20Dernier%20Secret%20De%20Nostradamus,empty
+2025-08-22 00:40:44,024 - INFO - Waiting 60 seconds after search...
+20250822,004144,Row,4,Artemisia,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Artemisia,empty
+2025-08-22 00:41:44,276 - INFO - Waiting 60 seconds after search...
+20250822,004244,Row,5,Au Coeur Du Desert,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Au%20Coeur%20Du%20Desert,empty
+2025-08-22 00:42:44,572 - INFO - Waiting 60 seconds after search...
+20250822,004344,Row,6,Autopsie,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Autopsie,empty
+2025-08-22 00:43:44,817 - INFO - Waiting 60 seconds after search...
+2025-08-22 00:49:26,838 - INFO - Starting processing with non-interactive mode
+2025-08-22 00:49:27,044 - INFO - Google response status: 200
+2025-08-22 00:49:27,044 - INFO - Response length: 84439
+2025-08-22 00:49:27,044 - INFO - Waiting 60 seconds after search...
+2025-08-22 00:50:27,046 - INFO - Found 0 potential result links
+2025-08-22 00:50:27,046 - WARNING - No valid bedetheque.com links found for 'Arsene Lupin Et Le Dernier Secret De Nostradamus'
+20250822,005027,Row,3,Arsene Lupin Et Le Dernier Secret De Nostradamus,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Arsene%20Lupin%20Et%20Le%20Dernier%20Secret%20De%20Nostradamus,empty
+2025-08-22 00:50:27,711 - INFO - Google response status: 200
+2025-08-22 00:50:27,711 - INFO - Response length: 84746
+2025-08-22 00:50:27,712 - INFO - Waiting 60 seconds after search...
+2025-08-22 00:51:27,713 - INFO - Found 0 potential result links
+2025-08-22 00:51:27,713 - WARNING - No valid bedetheque.com links found for 'Artemisia'
+20250822,005127,Row,4,Artemisia,empty,not Found,https://www.google.com/search?q=site%3Abedetheque.com%20Artemisia,empty
+2025-08-22 00:51:28,161 - INFO - Google response status: 200
+2025-08-22 00:51:28,161 - INFO - Response length: 84302
+2025-08-22 00:51:28,162 - INFO - Waiting 60 seconds after search...
+2025-08-22 00:56:14,403 - INFO - Starting processing with non-interactive mode
+2025-08-22 00:56:14,655 - INFO - Bedetheque response status: 200
+2025-08-22 00:56:14,656 - INFO - Response length: 540
+2025-08-22 00:56:14,656 - INFO - Waiting 60 seconds after search...
+2025-08-22 00:57:14,657 - WARNING - No search results found on the page
+20250822,005714,Row,3,Arsene Lupin Et Le Dernier Secret De Nostradamus,empty,not Found,https://www.bedetheque.com/search/albums?keywords=Arsene%20Lupin%20Et%20Le%20Dernier%20Secret%20De%20Nostradamus,empty
+2025-08-22 00:57:14,973 - INFO - Bedetheque response status: 200
+2025-08-22 00:57:14,973 - INFO - Response length: 540
+2025-08-22 00:57:14,973 - INFO - Waiting 60 seconds after search...
+2025-08-22 00:58:14,974 - WARNING - No search results found on the page
+20250822,005814,Row,4,Artemisia,empty,not Found,https://www.bedetheque.com/search/albums?keywords=Artemisia,empty
+2025-08-22 00:58:15,293 - INFO - Bedetheque response status: 200
+2025-08-22 00:58:15,293 - INFO - Response length: 540
+2025-08-22 00:58:15,293 - INFO - Waiting 60 seconds after search...
+2025-08-22 00:59:15,294 - WARNING - No search results found on the page
+20250822,005915,Row,5,Au Coeur Du Desert,empty,not Found,https://www.bedetheque.com/search/albums?keywords=Au%20Coeur%20Du%20Desert,empty
+2025-08-22 00:59:15,770 - INFO - Bedetheque response status: 200
+2025-08-22 00:59:15,770 - INFO - Response length: 540
+2025-08-22 00:59:15,770 - INFO - Waiting 60 seconds after search...
+2025-08-22 01:00:15,771 - WARNING - No search results found on the page
+20250822,010015,Row,6,Autopsie,empty,not Found,https://www.bedetheque.com/search/albums?keywords=Autopsie,empty
+2025-08-22 01:00:15,970 - INFO - Bedetheque response status: 200
+2025-08-22 01:00:15,970 - INFO - Response length: 540
+2025-08-22 01:00:15,970 - INFO - Waiting 60 seconds after search...
+2025-08-22 01:01:15,971 - WARNING - No search results found on the page
+20250822,010115,Row,7,Aventure Quantique,empty,not Found,https://www.bedetheque.com/search/albums?keywords=Aventure%20Quantique,empty
+2025-08-22 01:01:16,313 - INFO - Bedetheque response status: 200
+2025-08-22 01:01:16,313 - INFO - Response length: 540
+2025-08-22 01:01:16,314 - INFO - Waiting 60 seconds after search...
+2025-08-22 01:02:16,315 - WARNING - No search results found on the page
+20250822,010216,Row,8,Bat Mad - Krotham Knight,empty,not Found,https://www.bedetheque.com/search/albums?keywords=Bat%20Mad%20-%20Krotham%20Knight,empty
+2025-08-22 01:02:16,748 - INFO - Bedetheque response status: 200
+2025-08-22 01:02:16,748 - INFO - Response length: 540
+2025-08-22 01:02:16,748 - INFO - Waiting 60 seconds after search...
+2025-08-22 01:03:16,749 - WARNING - No search results found on the page
+20250822,010316,Row,9,Belleville Story,empty,not Found,https://www.bedetheque.com/search/albums?keywords=Belleville%20Story,empty
+2025-08-22 01:03:17,159 - INFO - Bedetheque response status: 200
+2025-08-22 01:03:17,159 - INFO - Response length: 540
+2025-08-22 01:03:17,161 - INFO - Waiting 60 seconds after search...
+2025-08-22 01:04:17,163 - WARNING - No search results found on the page
+20250822,010417,Row,10,Ben Barka La Disparition,empty,not Found,https://www.bedetheque.com/search/albums?keywords=Ben%20Barka%20La%20Disparition,empty
+2025-08-22 01:04:17,613 - INFO - Bedetheque response status: 200
+2025-08-22 01:04:17,613 - INFO - Response length: 540
+2025-08-22 01:04:17,613 - INFO - Waiting 60 seconds after search...
+2025-08-22 01:05:17,614 - WARNING - No search results found on the page
+20250822,010517,Row,11,Bienvenue A Pandemonia,empty,not Found,https://www.bedetheque.com/search/albums?keywords=Bienvenue%20A%20Pandemonia,empty
+2025-08-22 01:05:18,174 - INFO - Bedetheque response status: 200
+2025-08-22 01:05:18,174 - INFO - Response length: 540
+2025-08-22 01:05:18,174 - INFO - Waiting 60 seconds after search...
+2025-08-22 01:06:18,175 - WARNING - No search results found on the page
+20250822,010618,Row,12,Boskovitch,empty,not Found,https://www.bedetheque.com/search/albums?keywords=Boskovitch,empty
+2025-08-22 01:06:18,714 - INFO - Bedetheque response status: 200
+2025-08-22 01:06:18,714 - INFO - Response length: 540
+2025-08-22 01:06:18,714 - INFO - Waiting 60 seconds after search...
+2025-08-22 01:17:17,696 - INFO - Starting processing with non-interactive mode
+2025-08-22 01:17:20,226 - INFO - Bedetheque response status: 200
+2025-08-22 01:17:20,226 - INFO - Response length: 540
+2025-08-22 01:17:20,232 - WARNING - Possible blocking detected (short response)
+20250822,011720,Row,3,Arsene Lupin Et Le Dernier Secret De Nostradamus,empty,not Found,Alternative search for Arsene Lupin Et Le Dernier Secret De Nostradamus,empty
+2025-08-22 01:17:23,392 - INFO - Bedetheque response status: 200
+2025-08-22 01:17:23,392 - INFO - Response length: 540
+2025-08-22 01:17:23,392 - WARNING - Possible blocking detected (short response)
+20250822,011723,Row,4,Artemisia,empty,not Found,Alternative search for Artemisia,empty
+2025-08-22 01:17:26,341 - INFO - Bedetheque response status: 200
+2025-08-22 01:17:26,341 - INFO - Response length: 540
+2025-08-22 01:17:26,341 - WARNING - Possible blocking detected (short response)
+20250822,011726,Row,5,Au Coeur Du Desert,empty,not Found,Alternative search for Au Coeur Du Desert,empty
+2025-08-22 01:17:28,774 - INFO - Bedetheque response status: 200
+2025-08-22 01:17:28,774 - INFO - Response length: 540
+2025-08-22 01:17:28,774 - WARNING - Possible blocking detected (short response)
+20250822,011728,Row,6,Autopsie,empty,not Found,Alternative search for Autopsie,empty
