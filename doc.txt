@@ -7,6 +7,7 @@ sudo apt install python3-pandas python3-openpyxl python3-requests python3-bs4 py
 LANCEMENT:
 python3 bddpc.py bd-db.xls output.xls
 python3 bddpc.py bd-db.xls output.xls -i
+python3 bddpc.py new-bds.xls output.xls -i
 
 
 

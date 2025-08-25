@@ -17658,3 +17658,75 @@
 2025-08-22 01:17:28,774 - INFO - Response length: 540
 2025-08-22 01:17:28,774 - WARNING - Possible blocking detected (short response)
 20250822,011728,Row,6,Autopsie,empty,not Found,Alternative search for Autopsie,empty
+2025-08-25 09:07:49,065 - INFO - Starting processing with non-interactive mode
+2025-08-25 09:08:01,629 - INFO - Starting processing with interactive mode
+20250825,090815,Row,3,Arsene Lupin Et Le Dernier Secret De Nostradamus,empty,Skipped (manual),empty,empty
+2025-08-25 09:08:55,150 - INFO - Starting processing with interactive mode
+2025-08-25 09:09:18,626 - INFO - Starting processing with interactive mode
+2025-08-25 09:09:21,924 - INFO - Bedetheque response status: 200
+2025-08-25 09:09:21,924 - INFO - Response length: 101598
+2025-08-25 09:09:21,953 - WARNING - No search results found on the page
+2025-08-25 09:09:21,955 - INFO - Found series link: https://www.facebook.com/pages/BD-Gest-Le-portail-BD-de-r%C3%A9f%C3%A9rence/307005630304?ref=hl
+20250825,090922,Row,3,Arsene Lupin Et Le Dernier Secret De Nostradamus,empty,Found (new),https://www.bedetheque.com/search/albums?keywords=Arsene%20Lupin%20Et%20Le%20Dernier%20Secret%20De%20Nostradamus,https://scontent.fqls2-1.fna.fbcdn.net/v/t39.30808-1/271187771_10165866392315305_1178652296352691654_n.png?stp=dst-png&cstp=mx499x500&ctp=s499x500&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OnoDacwVlT0Q7kNvwH1nsJ-&_nc_oc=AdkA6HgmEcB9UNCc1qlGzc46h-KUhdSdyygO2-RzpjlhutGRCU07ryLO1TE4eGqTiUk&_nc_zt=24&_nc_ht=scontent.fqls2-1.fna&_nc_gid=NYE0DdfQuTfQZEEVSVfqbQ&oh=00_AfVj7ppkdBx40atCdFl4mF8R5bpMI_cWKGKModzpWqpf2w&oe=68B1F860
+2025-08-25 09:09:47,794 - INFO - Bedetheque response status: 200
+2025-08-25 09:09:47,794 - INFO - Response length: 101606
+2025-08-25 09:09:47,822 - WARNING - No search results found on the page
+2025-08-25 09:09:47,824 - INFO - Found series link: https://www.facebook.com/pages/BD-Gest-Le-portail-BD-de-r%C3%A9f%C3%A9rence/307005630304?ref=hl
+20250825,090949,Row,4,Artemisia,empty,Found (new),https://www.bedetheque.com/search/albums?keywords=Artemisia,https://scontent.fqls2-1.fna.fbcdn.net/v/t39.30808-1/271187771_10165866392315305_1178652296352691654_n.png?stp=dst-png&cstp=mx499x500&ctp=s499x500&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OnoDacwVlT0Q7kNvwH1nsJ-&_nc_oc=AdkA6HgmEcB9UNCc1qlGzc46h-KUhdSdyygO2-RzpjlhutGRCU07ryLO1TE4eGqTiUk&_nc_zt=24&_nc_ht=scontent.fqls2-1.fna&_nc_gid=KryEFTrVIgmXEuvlb0w0Qw&oh=00_AfWvlbzRc4TuqyJmxFjGxlq8lGjjJnNqSeNZID2hO8l67g&oe=68B1F860
+2025-08-25 09:10:47,854 - INFO - Bedetheque response status: 200
+2025-08-25 09:10:47,854 - INFO - Response length: 101607
+2025-08-25 09:10:47,883 - WARNING - No search results found on the page
+2025-08-25 09:10:47,884 - INFO - Found series link: https://www.facebook.com/pages/BD-Gest-Le-portail-BD-de-r%C3%A9f%C3%A9rence/307005630304?ref=hl
+20250825,091048,Row,5,Au Coeur Du Desert,empty,Found (new),https://www.bedetheque.com/search/albums?keywords=Au%20Coeur%20Du%20Desert,empty
+2025-08-25 15:43:59,118 - ERROR - Login failed. Please check your credentials.
+2025-08-25 15:43:59,125 - ERROR - Failed to create authenticated session. Exiting.
+2025-08-25 15:44:17,947 - ERROR - Login failed. Please check your credentials.
+2025-08-25 15:44:17,948 - ERROR - Failed to create authenticated session. Exiting.
+2025-08-25 16:30:45,570 - INFO - Fetching login page to get CSRF token...
+2025-08-25 16:30:47,854 - WARNING - Could not find CSRF token on login page
+2025-08-25 16:30:47,855 - INFO - Attempting login...
+2025-08-25 16:30:47,958 - ERROR - Login failed. Could not find success indicators in response.
+2025-08-25 16:30:47,958 - ERROR - Response URL: https://online.bdgest.com/login
+2025-08-25 16:30:47,958 - ERROR - Saved response to login_debug.html for inspection
+2025-08-25 16:30:47,959 - ERROR - Failed to create authenticated session. Exiting.
+2025-08-25 16:30:47,960 - ERROR - Please check the login_debug.html file for details.
+2025-08-25 17:49:32,312 - INFO - Fetching login page to get CSRF token...
+2025-08-25 17:49:34,271 - WARNING - Could not find CSRF token on login page. Trying without it...
+2025-08-25 17:49:34,271 - INFO - Attempting login...
+2025-08-25 17:49:34,418 - ERROR - Login failed. Could not find success indicators in response.
+2025-08-25 17:49:34,418 - ERROR - Response URL: https://online.bdgest.com/login
+2025-08-25 17:49:34,418 - ERROR - Saved response to login_debug.html for inspection
+2025-08-25 17:49:34,421 - ERROR - Failed to create authenticated session. Exiting.
+2025-08-25 17:49:34,422 - ERROR - Please check the login_debug.html file for details.
+2025-08-25 18:00:47,346 - INFO - Fetching login page to get CSRF token...
+2025-08-25 18:00:49,049 - INFO - Found CSRF token: 22681209f5...
+2025-08-25 18:00:49,049 - INFO - Attempting login...
+2025-08-25 18:00:51,674 - INFO - Login successful! Found account indicators in response.
+2025-08-25 18:00:51,674 - INFO - Starting processing with non-interactive mode
+2025-08-25 18:00:51,705 - INFO - Searching for: Arsene Lupin Et Le Dernier Secret De Nostradamus
+2025-08-25 18:00:56,886 - WARNING - No results found for 'Arsene Lupin Et Le Dernier Secret De Nostradamus'
+20250825,180056,Row,3,Arsene Lupin Et Le Dernier Secret De Nostradamus,empty,not Found,https://online.bdgest.com/albums/import?s=Arsene+Lupin+Et+Le+Dernier+Secret+De+Nostradamus,empty
+2025-08-25 18:00:57,163 - INFO - Searching for: Artemisia
+2025-08-25 18:01:02,386 - WARNING - No results found for 'Artemisia'
+20250825,180102,Row,4,Artemisia,empty,not Found,https://online.bdgest.com/albums/import?s=Artemisia,empty
+2025-08-25 18:01:02,496 - INFO - Searching for: Au Coeur Du Desert
+2025-08-25 18:01:17,138 - INFO - Fetching login page to get CSRF token...
+2025-08-25 18:01:34,791 - INFO - Found CSRF token: 5ce48fc198...
+2025-08-25 18:01:34,791 - INFO - Attempting login...
+2025-08-25 18:01:39,597 - INFO - Login successful! Found account indicators in response.
+2025-08-25 18:01:39,597 - INFO - Starting processing with interactive mode
+2025-08-25 18:01:39,616 - INFO - Searching for: Arsene Lupin Et Le Dernier Secret De Nostradamus
+2025-08-25 18:01:48,756 - WARNING - No results found for 'Arsene Lupin Et Le Dernier Secret De Nostradamus'
+20250825,180148,Row,3,Arsene Lupin Et Le Dernier Secret De Nostradamus,empty,not Found,https://online.bdgest.com/albums/import?s=Arsene+Lupin+Et+Le+Dernier+Secret+De+Nostradamus,empty
+2025-08-25 18:01:48,955 - INFO - Searching for: Artemisia
+2025-08-25 18:02:01,007 - WARNING - No results found for 'Artemisia'
+20250825,180201,Row,4,Artemisia,empty,not Found,https://online.bdgest.com/albums/import?s=Artemisia,empty
+2025-08-25 18:02:01,116 - INFO - Searching for: Au Coeur Du Desert
+2025-08-25 18:10:37,844 - INFO - Fetching login page to get CSRF token...
+2025-08-25 18:10:39,431 - INFO - Found CSRF token: 45f71e9e27...
+2025-08-25 18:10:39,432 - INFO - Attempting login...
+2025-08-25 18:10:41,868 - INFO - Login successful! Found account indicators in response.
+2025-08-25 18:10:41,868 - INFO - Starting processing with non-interactive mode
+2025-08-25 18:10:46,996 - WARNING - No results found in simple search for 'Artemisia'
+2025-08-25 18:10:46,996 - INFO - Simple search failed, trying detailed search...
+2025-08-25 18:10:46,996 - ERROR - Error processing file: name 'search_online_bdgest_detailed' is not defined
